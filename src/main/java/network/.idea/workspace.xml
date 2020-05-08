@@ -1,0 +1,895 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="ec272794-dba5-44c8-8cc1-dd407f843f27" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../algorithm/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../algorithm/src/leetcode/intermediate/Backtracking/PermutationSequence60.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../algorithm/src/leetcode/intermediate/LinkedList/SwapNodesInPairs24.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../algorithm/src/leetcode/intermediate/arrayAndString/ZigzagConversion.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../algorithm/src/leetcode/intermediate/other/IntegerToRoman.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../functionInterface/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../functionInterface/functionInterface.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../functionInterface/src/fourFuctInterface/Example.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../functionInterface/src/streamExa/Example.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../io/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../io/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../io/src/io/CountDir.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../io/src/io/FilterStreamExam.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/socket/ClientExam.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/socket/ServerExam.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../algorithm/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../algorithm/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../algorithm/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../algorithm/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../algorithm/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../algorithm/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../algorithm/algorithm.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../algorithm/algorithm.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../algorithm/src/algs4/graph/WeightGraph/directedGraph/AcyclicSP.java" beforeDir="false" afterPath="$PROJECT_DIR$/../algorithm/src/algs4/graph/WeightGraph/directedGraph/AcyclicSP.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../algorithm/src/algs4/graph/WeightGraph/directedGraph/EdgeWeightedDigraph.java" beforeDir="false" afterPath="$PROJECT_DIR$/../algorithm/src/algs4/graph/WeightGraph/directedGraph/EdgeWeightedDigraph.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../algorithm/src/algs4/graph/undirectedGraph/Graph.java" beforeDir="false" afterPath="$PROJECT_DIR$/../algorithm/src/algs4/graph/undirectedGraph/Graph.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../algorithm/src/algs4/sorting/Bubble.java" beforeDir="false" afterPath="$PROJECT_DIR$/../algorithm/src/algs4/sorting/Bubble.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../algorithm/src/algs4/sorting/InsertionSorting.java" beforeDir="false" afterPath="$PROJECT_DIR$/../algorithm/src/algs4/sorting/InsertionSorting.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../algorithm/src/algs4/sorting/ShellSorting.java" beforeDir="false" afterPath="$PROJECT_DIR$/../algorithm/src/algs4/sorting/ShellSorting.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../algorithm/src/algs4/sorting/TestSorting.java" beforeDir="false" afterPath="$PROJECT_DIR$/../algorithm/src/algs4/sorting/TestSorting.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../algorithm/src/algs4/testAlgs4/TestDraw.java" beforeDir="false" afterPath="$PROJECT_DIR$/../algorithm/src/algs4/testAlgs4/TestDraw.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../algorithm/src/leetcode/difficult/dynamic/WashMachine.java" beforeDir="false" afterPath="$PROJECT_DIR$/../algorithm/src/leetcode/difficult/dynamic/WashMachine.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../algorithm/src/leetcode/intermediate/Backtracking/Exist.java" beforeDir="false" afterPath="$PROJECT_DIR$/../algorithm/src/leetcode/intermediate/Backtracking/Exist.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../algorithm/src/leetcode/intermediate/Backtracking/Permute.java" beforeDir="false" afterPath="$PROJECT_DIR$/../algorithm/src/leetcode/intermediate/Backtracking/Permute.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../algorithm/src/leetcode/intermediate/arrayAndString/NextPermutation.java" beforeDir="false" afterPath="$PROJECT_DIR$/../algorithm/src/leetcode/intermediate/arrayAndString/NextPermutation.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../algorithm/src/leetcode/intermediate/dynamicPlanning/LongestIncreasingSubsequence.java" beforeDir="false" afterPath="$PROJECT_DIR$/../algorithm/src/leetcode/intermediate/dynamicPlanning/LongestIncreasingSubsequence.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../algorithm/src/leetcode/intermediate/math/IsHappy.java" beforeDir="false" afterPath="$PROJECT_DIR$/../algorithm/src/leetcode/intermediate/math/IsHappy.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../algorithm/src/leetcode/intermediate/other/MajorityEllement.java" beforeDir="false" afterPath="$PROJECT_DIR$/../algorithm/src/leetcode/intermediate/other/MajorityEllement.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../algorithm/src/testDemo/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../algorithm/src/testDemo/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../algorithm/src/testDemo/T.java" beforeDir="false" afterPath="$PROJECT_DIR$/../algorithm/src/testDemo/T.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../concurrent/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../concurrent/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../concurrent/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../concurrent/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../concurrent/concurrent.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../concurrent/concurrent.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../io/.idea/io.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../io/.idea/io.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../io/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../io/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../io/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../io/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../io/out/production/io/io/Client.class" beforeDir="false" afterPath="$PROJECT_DIR$/../io/out/production/io/io/Client.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../io/out/production/io/io/Server.class" beforeDir="false" afterPath="$PROJECT_DIR$/../io/out/production/io/io/Server.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../io/out/production/io/nio/NioServer$Handler.class" beforeDir="false" afterPath="$PROJECT_DIR$/../io/out/production/io/nio/NioServer$Handler.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../io/out/production/io/nio/NioServer.class" beforeDir="false" afterPath="$PROJECT_DIR$/../io/out/production/io/nio/NioServer.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/algorithm/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/algorithm/chapter5_string/LSD.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/algorithm/chapter5_string/MSD.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/algorithm/niukewang/CowCowBackpack.class" beforeDir="false" afterPath="$PROJECT_DIR$/../out/production/algorithm/niukewang/CowCowBackpack.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/algorithm/niukewang/DynamicPlanning/Backpack01.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/algorithm/niukewang/DynamicPlanning/Choir.class" beforeDir="false" afterPath="$PROJECT_DIR$/../out/production/algorithm/niukewang/DynamicPlanning/Choir.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/algorithm/niukewang/DynamicPlanning/LCS.class" beforeDir="false" afterPath="$PROJECT_DIR$/../out/production/algorithm/niukewang/DynamicPlanning/LCS.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/algorithm/niukewang/DynamicPlanning/LIS.class" beforeDir="false" afterPath="$PROJECT_DIR$/../out/production/algorithm/niukewang/DynamicPlanning/LIS.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/algorithm/niukewang/DynamicPlanning/backpack01-testData" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/algorithm/niukewang/DynamicPlanning/ladder.class" beforeDir="false" afterPath="$PROJECT_DIR$/../out/production/algorithm/niukewang/DynamicPlanning/ladder.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/algorithm/production/algorithm/algs4/cache/LFUCache$ListNode.class" beforeDir="false" afterPath="$PROJECT_DIR$/../out/production/algorithm/production/algorithm/algs4/cache/LFUCache$ListNode.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/algorithm/production/algorithm/algs4/cache/LFUCache.class" beforeDir="false" afterPath="$PROJECT_DIR$/../out/production/algorithm/production/algorithm/algs4/cache/LFUCache.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/algorithm/production/algorithm/algs4/cache/LRUCache$ListNode.class" beforeDir="false" afterPath="$PROJECT_DIR$/../out/production/algorithm/production/algorithm/algs4/cache/LRUCache$ListNode.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/algorithm/production/algorithm/algs4/cache/LRUCache.class" beforeDir="false" afterPath="$PROJECT_DIR$/../out/production/algorithm/production/algorithm/algs4/cache/LRUCache.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/algorithm/production/algorithm/algs4/graph/IndexMinPQ$HeapIterator.class" beforeDir="false" afterPath="$PROJECT_DIR$/../out/production/algorithm/production/algorithm/algs4/graph/IndexMinPQ$HeapIterator.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/algorithm/production/algorithm/algs4/graph/IndexMinPQ.class" beforeDir="false" afterPath="$PROJECT_DIR$/../out/production/algorithm/production/algorithm/algs4/graph/IndexMinPQ.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/algorithm/production/algorithm/algs4/graph/WeightGraph/directedGraph/AcyclicSP.class" beforeDir="false" afterPath="$PROJECT_DIR$/../out/production/algorithm/production/algorithm/algs4/graph/WeightGraph/directedGraph/AcyclicSP.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/algorithm/production/algorithm/algs4/graph/WeightGraph/directedGraph/DijkstraSP.class" beforeDir="false" afterPath="$PROJECT_DIR$/../out/production/algorithm/production/algorithm/algs4/graph/WeightGraph/directedGraph/DijkstraSP.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/algorithm/production/algorithm/algs4/graph/WeightGraph/directedGraph/DirectedEdge.class" beforeDir="false" afterPath="$PROJECT_DIR$/../out/production/algorithm/production/algorithm/algs4/graph/WeightGraph/directedGraph/DirectedEdge.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/algorithm/production/algorithm/algs4/graph/WeightGraph/directedGraph/EdgeWeightedDigraph.class" beforeDir="false" afterPath="$PROJECT_DIR$/../out/production/algorithm/production/algorithm/algs4/graph/WeightGraph/directedGraph/EdgeWeightedDigraph.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/algorithm/production/algorithm/algs4/graph/WeightGraph/undirectedGraph/Edge.class" beforeDir="false" afterPath="$PROJECT_DIR$/../out/production/algorithm/production/algorithm/algs4/graph/WeightGraph/undirectedGraph/Edge.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/algorithm/production/algorithm/algs4/graph/WeightGraph/undirectedGraph/EdgeWeightedGraph.class" beforeDir="false" afterPath="$PROJECT_DIR$/../out/production/algorithm/production/algorithm/algs4/graph/WeightGraph/undirectedGraph/EdgeWeightedGraph.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/algorithm/production/algorithm/algs4/graph/WeightGraph/undirectedGraph/KruskalMST.class" beforeDir="false" afterPath="$PROJECT_DIR$/../out/production/algorithm/production/algorithm/algs4/graph/WeightGraph/undirectedGraph/KruskalMST.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/algorithm/production/algorithm/algs4/graph/WeightGraph/undirectedGraph/LazyPrimMST.class" beforeDir="false" afterPath="$PROJECT_DIR$/../out/production/algorithm/production/algorithm/algs4/graph/WeightGraph/undirectedGraph/LazyPrimMST.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/algorithm/production/algorithm/algs4/graph/WeightGraph/undirectedGraph/PrimMST.class" beforeDir="false" afterPath="$PROJECT_DIR$/../out/production/algorithm/production/algorithm/algs4/graph/WeightGraph/undirectedGraph/PrimMST.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/algorithm/production/algorithm/algs4/graph/directedGraph/DepthFirstOrder.class" beforeDir="false" afterPath="$PROJECT_DIR$/../out/production/algorithm/production/algorithm/algs4/graph/directedGraph/DepthFirstOrder.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/algorithm/production/algorithm/algs4/graph/directedGraph/DiGraph.class" beforeDir="false" afterPath="$PROJECT_DIR$/../out/production/algorithm/production/algorithm/algs4/graph/directedGraph/DiGraph.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/algorithm/production/algorithm/algs4/graph/directedGraph/DirectedCycle.class" beforeDir="false" afterPath="$PROJECT_DIR$/../out/production/algorithm/production/algorithm/algs4/graph/directedGraph/DirectedCycle.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/algorithm/production/algorithm/algs4/graph/directedGraph/DirectedDFS.class" beforeDir="false" afterPath="$PROJECT_DIR$/../out/production/algorithm/production/algorithm/algs4/graph/directedGraph/DirectedDFS.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/algorithm/production/algorithm/algs4/graph/directedGraph/KosarajuSCC.class" beforeDir="false" afterPath="$PROJECT_DIR$/../out/production/algorithm/production/algorithm/algs4/graph/directedGraph/KosarajuSCC.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/algorithm/production/algorithm/algs4/graph/directedGraph/Topological.class" beforeDir="false" afterPath="$PROJECT_DIR$/../out/production/algorithm/production/algorithm/algs4/graph/directedGraph/Topological.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/algorithm/production/algorithm/algs4/graph/undirectedGraph/BreadthFirstPaths.class" beforeDir="false" afterPath="$PROJECT_DIR$/../out/production/algorithm/production/algorithm/algs4/graph/undirectedGraph/BreadthFirstPaths.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/algorithm/production/algorithm/algs4/graph/undirectedGraph/CC.class" beforeDir="false" afterPath="$PROJECT_DIR$/../out/production/algorithm/production/algorithm/algs4/graph/undirectedGraph/CC.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/algorithm/production/algorithm/algs4/graph/undirectedGraph/Cycle.class" beforeDir="false" afterPath="$PROJECT_DIR$/../out/production/algorithm/production/algorithm/algs4/graph/undirectedGraph/Cycle.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/algorithm/production/algorithm/algs4/graph/undirectedGraph/DepathFirstPaths.class" beforeDir="false" afterPath="$PROJECT_DIR$/../out/production/algorithm/production/algorithm/algs4/graph/undirectedGraph/DepathFirstPaths.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/algorithm/production/algorithm/algs4/graph/undirectedGraph/Graph.class" beforeDir="false" afterPath="$PROJECT_DIR$/../out/production/algorithm/production/algorithm/algs4/graph/undirectedGraph/Graph.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/algorithm/production/algorithm/algs4/graph/undirectedGraph/GraphUtil.class" beforeDir="false" afterPath="$PROJECT_DIR$/../out/production/algorithm/production/algorithm/algs4/graph/undirectedGraph/GraphUtil.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/algorithm/production/algorithm/algs4/graph/undirectedGraph/Search.class" beforeDir="false" afterPath="$PROJECT_DIR$/../out/production/algorithm/production/algorithm/algs4/graph/undirectedGraph/Search.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/algorithm/production/algorithm/algs4/graph/undirectedGraph/TwoColor.class" beforeDir="false" afterPath="$PROJECT_DIR$/../out/production/algorithm/production/algorithm/algs4/graph/undirectedGraph/TwoColor.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/algorithm/production/algorithm/algs4/sorting/Bubble.class" beforeDir="false" afterPath="$PROJECT_DIR$/../out/production/algorithm/production/algorithm/algs4/sorting/Bubble.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/algorithm/production/algorithm/algs4/sorting/BucketSorting.class" beforeDir="false" afterPath="$PROJECT_DIR$/../out/production/algorithm/production/algorithm/algs4/sorting/BucketSorting.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/algorithm/production/algorithm/algs4/sorting/CounteSorting.class" beforeDir="false" afterPath="$PROJECT_DIR$/../out/production/algorithm/production/algorithm/algs4/sorting/CounteSorting.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/algorithm/production/algorithm/algs4/sorting/HeapSorting.class" beforeDir="false" afterPath="$PROJECT_DIR$/../out/production/algorithm/production/algorithm/algs4/sorting/HeapSorting.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/algorithm/production/algorithm/algs4/sorting/InsertionSorting.class" beforeDir="false" afterPath="$PROJECT_DIR$/../out/production/algorithm/production/algorithm/algs4/sorting/InsertionSorting.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/algorithm/production/algorithm/algs4/sorting/LSDSort.class" beforeDir="false" afterPath="$PROJECT_DIR$/../out/production/algorithm/production/algorithm/algs4/sorting/LSDSort.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/algorithm/production/algorithm/algs4/sorting/MSDSort.class" beforeDir="false" afterPath="$PROJECT_DIR$/../out/production/algorithm/production/algorithm/algs4/sorting/MSDSort.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/algorithm/production/algorithm/algs4/sorting/MergeSorting.class" beforeDir="false" afterPath="$PROJECT_DIR$/../out/production/algorithm/production/algorithm/algs4/sorting/MergeSorting.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/algorithm/production/algorithm/algs4/sorting/QuickSorting.class" beforeDir="false" afterPath="$PROJECT_DIR$/../out/production/algorithm/production/algorithm/algs4/sorting/QuickSorting.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/algorithm/production/algorithm/algs4/sorting/SelectionSorting.class" beforeDir="false" afterPath="$PROJECT_DIR$/../out/production/algorithm/production/algorithm/algs4/sorting/SelectionSorting.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/algorithm/production/algorithm/algs4/sorting/ShellSorting.class" beforeDir="false" afterPath="$PROJECT_DIR$/../out/production/algorithm/production/algorithm/algs4/sorting/ShellSorting.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/algorithm/production/algorithm/algs4/sorting/SortingUtil.class" beforeDir="false" afterPath="$PROJECT_DIR$/../out/production/algorithm/production/algorithm/algs4/sorting/SortingUtil.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/algorithm/production/algorithm/algs4/sorting/TestSorting.class" beforeDir="false" afterPath="$PROJECT_DIR$/../out/production/algorithm/production/algorithm/algs4/sorting/TestSorting.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/algorithm/production/algorithm/algs4/string/IndexMaxPQ$HeapIterator.class" beforeDir="false" afterPath="$PROJECT_DIR$/../out/production/algorithm/production/algorithm/algs4/string/IndexMaxPQ$HeapIterator.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/algorithm/production/algorithm/algs4/string/IndexMaxPQ.class" beforeDir="false" afterPath="$PROJECT_DIR$/../out/production/algorithm/production/algorithm/algs4/string/IndexMaxPQ.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/algorithm/production/algorithm/algs4/string/regex/NFA.class" beforeDir="false" afterPath="$PROJECT_DIR$/../out/production/algorithm/production/algorithm/algs4/string/regex/NFA.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/algorithm/production/algorithm/algs4/string/regex/Test.class" beforeDir="false" afterPath="$PROJECT_DIR$/../out/production/algorithm/production/algorithm/algs4/string/regex/Test.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/algorithm/production/algorithm/algs4/string/search/BoyerMoore.class" beforeDir="false" afterPath="$PROJECT_DIR$/../out/production/algorithm/production/algorithm/algs4/string/search/BoyerMoore.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/algorithm/production/algorithm/algs4/string/search/KMP.class" beforeDir="false" afterPath="$PROJECT_DIR$/../out/production/algorithm/production/algorithm/algs4/string/search/KMP.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/algorithm/production/algorithm/algs4/string/search/RabinKarp.class" beforeDir="false" afterPath="$PROJECT_DIR$/../out/production/algorithm/production/algorithm/algs4/string/search/RabinKarp.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/algorithm/production/algorithm/algs4/string/search/SearchSubString.class" beforeDir="false" afterPath="$PROJECT_DIR$/../out/production/algorithm/production/algorithm/algs4/string/search/SearchSubString.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/algorithm/production/algorithm/algs4/string/sort/LSD.class" beforeDir="false" afterPath="$PROJECT_DIR$/../out/production/algorithm/production/algorithm/algs4/string/sort/LSD.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/algorithm/production/algorithm/algs4/string/sort/MSD.class" beforeDir="false" afterPath="$PROJECT_DIR$/../out/production/algorithm/production/algorithm/algs4/string/sort/MSD.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/algorithm/production/algorithm/algs4/string/sort/Quick3String.class" beforeDir="false" afterPath="$PROJECT_DIR$/../out/production/algorithm/production/algorithm/algs4/string/sort/Quick3String.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/algorithm/production/algorithm/algs4/string/wordSearchTree/TST$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/algorithm/production/algorithm/algs4/string/wordSearchTree/TST$Node.class" beforeDir="false" afterPath="$PROJECT_DIR$/../out/production/algorithm/production/algorithm/algs4/string/wordSearchTree/TST$Node.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/algorithm/production/algorithm/algs4/string/wordSearchTree/TST.class" beforeDir="false" afterPath="$PROJECT_DIR$/../out/production/algorithm/production/algorithm/algs4/string/wordSearchTree/TST.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/algorithm/production/algorithm/algs4/string/wordSearchTree/TrieST$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/algorithm/production/algorithm/algs4/string/wordSearchTree/TrieST$Node.class" beforeDir="false" afterPath="$PROJECT_DIR$/../out/production/algorithm/production/algorithm/algs4/string/wordSearchTree/TrieST$Node.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/algorithm/production/algorithm/algs4/string/wordSearchTree/TrieST.class" beforeDir="false" afterPath="$PROJECT_DIR$/../out/production/algorithm/production/algorithm/algs4/string/wordSearchTree/TrieST.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/algorithm/production/algorithm/algs4/string/wordSearchTree/TrieSTTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/../out/production/algorithm/production/algorithm/algs4/string/wordSearchTree/TrieSTTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/algorithm/production/algorithm/algs4/testAlgs4/TestBTree.class" beforeDir="false" afterPath="$PROJECT_DIR$/../out/production/algorithm/production/algorithm/algs4/testAlgs4/TestBTree.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/algorithm/production/algorithm/algs4/testAlgs4/TestDraw.class" beforeDir="false" afterPath="$PROJECT_DIR$/../out/production/algorithm/production/algorithm/algs4/testAlgs4/TestDraw.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/algorithm/production/algorithm/algs4/testAlgs4/TestTST.class" beforeDir="false" afterPath="$PROJECT_DIR$/../out/production/algorithm/production/algorithm/algs4/testAlgs4/TestTST.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/algorithm/production/algorithm/algs4/tree/rbTree/BinaryTree$Node.class" beforeDir="false" afterPath="$PROJECT_DIR$/../out/production/algorithm/production/algorithm/algs4/tree/rbTree/BinaryTree$Node.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/algorithm/production/algorithm/algs4/tree/rbTree/BinaryTree.class" beforeDir="false" afterPath="$PROJECT_DIR$/../out/production/algorithm/production/algorithm/algs4/tree/rbTree/BinaryTree.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/algorithm/production/algorithm/algs4/tree/rbTree/BinaryTreeTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/../out/production/algorithm/production/algorithm/algs4/tree/rbTree/BinaryTreeTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/algorithm/production/algorithm/algs4/tree/rbTree/RBT$RBNode.class" beforeDir="false" afterPath="$PROJECT_DIR$/../out/production/algorithm/production/algorithm/algs4/tree/rbTree/RBT$RBNode.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/algorithm/production/algorithm/algs4/tree/rbTree/RBT.class" beforeDir="false" afterPath="$PROJECT_DIR$/../out/production/algorithm/production/algorithm/algs4/tree/rbTree/RBT.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/algorithm/production/algorithm/algs4/tree/rbTree/RBTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/../out/production/algorithm/production/algorithm/algs4/tree/rbTree/RBTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/algorithm/production/algorithm/algs4/tree/rbTree/RBTree$Color.class" beforeDir="false" afterPath="$PROJECT_DIR$/../out/production/algorithm/production/algorithm/algs4/tree/rbTree/RBTree$Color.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/algorithm/production/algorithm/algs4/tree/rbTree/RBTree$RBNode.class" beforeDir="false" afterPath="$PROJECT_DIR$/../out/production/algorithm/production/algorithm/algs4/tree/rbTree/RBTree$RBNode.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/algorithm/production/algorithm/algs4/tree/rbTree/RBTree.class" beforeDir="false" afterPath="$PROJECT_DIR$/../out/production/algorithm/production/algorithm/algs4/tree/rbTree/RBTree.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/algorithm/production/algorithm/algs4/tree/rbTree/RBTree2$RBNode.class" beforeDir="false" afterPath="$PROJECT_DIR$/../out/production/algorithm/production/algorithm/algs4/tree/rbTree/RBTree2$RBNode.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/algorithm/production/algorithm/algs4/tree/rbTree/RBTree2.class" beforeDir="false" afterPath="$PROJECT_DIR$/../out/production/algorithm/production/algorithm/algs4/tree/rbTree/RBTree2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/algorithm/production/algorithm/algs4/union_find/Quick_find.class" beforeDir="false" afterPath="$PROJECT_DIR$/../out/production/algorithm/production/algorithm/algs4/union_find/Quick_find.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/algorithm/production/algorithm/algs4/union_find/Quick_union.class" beforeDir="false" afterPath="$PROJECT_DIR$/../out/production/algorithm/production/algorithm/algs4/union_find/Quick_union.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/algorithm/production/algorithm/algs4/union_find/UF.class" beforeDir="false" afterPath="$PROJECT_DIR$/../out/production/algorithm/production/algorithm/algs4/union_find/UF.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/algorithm/production/algorithm/algs4/union_find/WeightedQuickUnionUF.class" beforeDir="false" afterPath="$PROJECT_DIR$/../out/production/algorithm/production/algorithm/algs4/union_find/WeightedQuickUnionUF.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/algorithm/production/algorithm/leetcode/BitOperation/BinaryNumberWithAlternatingBits.class" beforeDir="false" afterPath="$PROJECT_DIR$/../out/production/algorithm/production/algorithm/leetcode/BitOperation/BinaryNumberWithAlternatingBits.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/algorithm/production/algorithm/leetcode/BitOperation/NumberComplement.class" beforeDir="false" afterPath="$PROJECT_DIR$/../out/production/algorithm/production/algorithm/leetcode/BitOperation/NumberComplement.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/algorithm/production/algorithm/leetcode/BitOperation/SingleNumberII.class" beforeDir="false" afterPath="$PROJECT_DIR$/../out/production/algorithm/production/algorithm/leetcode/BitOperation/SingleNumberII.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/algorithm/production/algorithm/leetcode/BitOperation/ToHex.class" beforeDir="false" afterPath="$PROJECT_DIR$/../out/production/algorithm/production/algorithm/leetcode/BitOperation/ToHex.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/algorithm/production/algorithm/leetcode/PalindromePairs.class" beforeDir="false" afterPath="$PROJECT_DIR$/../out/production/algorithm/production/algorithm/leetcode/PalindromePairs.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/algorithm/production/algorithm/leetcode/ShortestPalindrome.class" beforeDir="false" afterPath="$PROJECT_DIR$/../out/production/algorithm/production/algorithm/leetcode/ShortestPalindrome.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/algorithm/production/algorithm/leetcode/TreeAndList/ListNode.class" beforeDir="false" afterPath="$PROJECT_DIR$/../out/production/algorithm/production/algorithm/leetcode/TreeAndList/ListNode.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/algorithm/production/algorithm/leetcode/TreeAndList/TreeNode.class" beforeDir="false" afterPath="$PROJECT_DIR$/../out/production/algorithm/production/algorithm/leetcode/TreeAndList/TreeNode.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/algorithm/production/algorithm/leetcode/dfs/BanlanceBinaryTree.class" beforeDir="false" afterPath="$PROJECT_DIR$/../out/production/algorithm/production/algorithm/leetcode/dfs/BanlanceBinaryTree.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/algorithm/production/algorithm/leetcode/dfs/MinimumDepthOfBinaryTree.class" beforeDir="false" afterPath="$PROJECT_DIR$/../out/production/algorithm/production/algorithm/leetcode/dfs/MinimumDepthOfBinaryTree.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/algorithm/production/algorithm/leetcode/difficult/arrayAndString/MedianOfTwoSortedArrays.class" beforeDir="false" afterPath="$PROJECT_DIR$/../out/production/algorithm/production/algorithm/leetcode/difficult/arrayAndString/MedianOfTwoSortedArrays.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/algorithm/production/algorithm/leetcode/difficult/arrayAndString/ProductOfArrayExceptSelf.class" beforeDir="false" afterPath="$PROJECT_DIR$/../out/production/algorithm/production/algorithm/leetcode/difficult/arrayAndString/ProductOfArrayExceptSelf.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/algorithm/production/algorithm/leetcode/difficult/arrayAndString/RegexOfMatch.class" beforeDir="false" afterPath="$PROJECT_DIR$/../out/production/algorithm/production/algorithm/leetcode/difficult/arrayAndString/RegexOfMatch.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/algorithm/production/algorithm/leetcode/difficult/dynamic/IsInterleave.class" beforeDir="false" afterPath="$PROJECT_DIR$/../out/production/algorithm/production/algorithm/leetcode/difficult/dynamic/IsInterleave.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/algorithm/production/algorithm/leetcode/difficult/dynamic/WashMachine.class" beforeDir="false" afterPath="$PROJECT_DIR$/../out/production/algorithm/production/algorithm/leetcode/difficult/dynamic/WashMachine.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/algorithm/production/algorithm/leetcode/dynamic/CombinationSum4.class" beforeDir="false" afterPath="$PROJECT_DIR$/../out/production/algorithm/production/algorithm/leetcode/dynamic/CombinationSum4.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/algorithm/production/algorithm/leetcode/dynamic/GenerateTrees.class" beforeDir="false" afterPath="$PROJECT_DIR$/../out/production/algorithm/production/algorithm/leetcode/dynamic/GenerateTrees.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/algorithm/production/algorithm/leetcode/dynamic/GuessNumberHigherOrLowerII.class" beforeDir="false" afterPath="$PROJECT_DIR$/../out/production/algorithm/production/algorithm/leetcode/dynamic/GuessNumberHigherOrLowerII.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/algorithm/production/algorithm/leetcode/dynamic/IntegerBreak.class" beforeDir="false" afterPath="$PROJECT_DIR$/../out/production/algorithm/production/algorithm/leetcode/dynamic/IntegerBreak.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/algorithm/production/algorithm/leetcode/dynamic/LCS.class" beforeDir="false" afterPath="$PROJECT_DIR$/../out/production/algorithm/production/algorithm/leetcode/dynamic/LCS.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/algorithm/production/algorithm/leetcode/dynamic/MinPathSum.class" beforeDir="false" afterPath="$PROJECT_DIR$/../out/production/algorithm/production/algorithm/leetcode/dynamic/MinPathSum.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/algorithm/production/algorithm/leetcode/dynamic/NumDecodings.class" beforeDir="false" afterPath="$PROJECT_DIR$/../out/production/algorithm/production/algorithm/leetcode/dynamic/NumDecodings.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/algorithm/production/algorithm/leetcode/dynamic/NumTrees.class" beforeDir="false" afterPath="$PROJECT_DIR$/../out/production/algorithm/production/algorithm/leetcode/dynamic/NumTrees.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/algorithm/production/algorithm/leetcode/dynamic/OneAndZeroes.class" beforeDir="false" afterPath="$PROJECT_DIR$/../out/production/algorithm/production/algorithm/leetcode/dynamic/OneAndZeroes.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/algorithm/production/algorithm/leetcode/dynamic/Triangle.class" beforeDir="false" afterPath="$PROJECT_DIR$/../out/production/algorithm/production/algorithm/leetcode/dynamic/Triangle.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/algorithm/production/algorithm/leetcode/dynamic/UniquePathsWithObstacles.class" beforeDir="false" afterPath="$PROJECT_DIR$/../out/production/algorithm/production/algorithm/leetcode/dynamic/UniquePathsWithObstacles.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/algorithm/production/algorithm/leetcode/dynamic/WrokBreak.class" beforeDir="false" afterPath="$PROJECT_DIR$/../out/production/algorithm/production/algorithm/leetcode/dynamic/WrokBreak.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/algorithm/production/algorithm/leetcode/intermediate/Backtracking/BackTrackingFramework.class" beforeDir="false" afterPath="$PROJECT_DIR$/../out/production/algorithm/production/algorithm/leetcode/intermediate/Backtracking/BackTrackingFramework.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/algorithm/production/algorithm/leetcode/intermediate/Backtracking/Exist.class" beforeDir="false" afterPath="$PROJECT_DIR$/../out/production/algorithm/production/algorithm/leetcode/intermediate/Backtracking/Exist.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/algorithm/production/algorithm/leetcode/intermediate/Backtracking/GenerateParenthesis.class" beforeDir="false" afterPath="$PROJECT_DIR$/../out/production/algorithm/production/algorithm/leetcode/intermediate/Backtracking/GenerateParenthesis.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/algorithm/production/algorithm/leetcode/intermediate/Backtracking/LetterCombinations.class" beforeDir="false" afterPath="$PROJECT_DIR$/../out/production/algorithm/production/algorithm/leetcode/intermediate/Backtracking/LetterCombinations.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/algorithm/production/algorithm/leetcode/intermediate/Backtracking/Permute.class" beforeDir="false" afterPath="$PROJECT_DIR$/../out/production/algorithm/production/algorithm/leetcode/intermediate/Backtracking/Permute.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/algorithm/production/algorithm/leetcode/intermediate/Backtracking/SubSets.class" beforeDir="false" afterPath="$PROJECT_DIR$/../out/production/algorithm/production/algorithm/leetcode/intermediate/Backtracking/SubSets.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/algorithm/production/algorithm/leetcode/intermediate/LinkedList/LinkListQuestion.class" beforeDir="false" afterPath="$PROJECT_DIR$/../out/production/algorithm/production/algorithm/leetcode/intermediate/LinkedList/LinkListQuestion.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/algorithm/production/algorithm/leetcode/intermediate/LinkedList/MergeKSortedLists.class" beforeDir="false" afterPath="$PROJECT_DIR$/../out/production/algorithm/production/algorithm/leetcode/intermediate/LinkedList/MergeKSortedLists.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/algorithm/production/algorithm/leetcode/intermediate/LinkedList/SortList.class" beforeDir="false" afterPath="$PROJECT_DIR$/../out/production/algorithm/production/algorithm/leetcode/intermediate/LinkedList/SortList.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/algorithm/production/algorithm/leetcode/intermediate/TreeAndDiagram/BinaryTreeMaximumPathSum.class" beforeDir="false" afterPath="$PROJECT_DIR$/../out/production/algorithm/production/algorithm/leetcode/intermediate/TreeAndDiagram/BinaryTreeMaximumPathSum.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/algorithm/production/algorithm/leetcode/intermediate/TreeAndDiagram/BuildTreeWithInorderAndPostorder.class" beforeDir="false" afterPath="$PROJECT_DIR$/../out/production/algorithm/production/algorithm/leetcode/intermediate/TreeAndDiagram/BuildTreeWithInorderAndPostorder.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/algorithm/production/algorithm/leetcode/intermediate/TreeAndDiagram/Connect.class" beforeDir="false" afterPath="$PROJECT_DIR$/../out/production/algorithm/production/algorithm/leetcode/intermediate/TreeAndDiagram/Connect.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/algorithm/production/algorithm/leetcode/intermediate/TreeAndDiagram/NumIslands.class" beforeDir="false" afterPath="$PROJECT_DIR$/../out/production/algorithm/production/algorithm/leetcode/intermediate/TreeAndDiagram/NumIslands.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/algorithm/production/algorithm/leetcode/intermediate/TreeAndDiagram/TreeLinkNode.class" beforeDir="false" afterPath="$PROJECT_DIR$/../out/production/algorithm/production/algorithm/leetcode/intermediate/TreeAndDiagram/TreeLinkNode.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/algorithm/production/algorithm/leetcode/intermediate/TreeAndDiagram/TreeQuestion.class" beforeDir="false" afterPath="$PROJECT_DIR$/../out/production/algorithm/production/algorithm/leetcode/intermediate/TreeAndDiagram/TreeQuestion.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/algorithm/production/algorithm/leetcode/intermediate/arrayAndString/ContainerWthMostWater.class" beforeDir="false" afterPath="$PROJECT_DIR$/../out/production/algorithm/production/algorithm/leetcode/intermediate/arrayAndString/ContainerWthMostWater.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/algorithm/production/algorithm/leetcode/intermediate/arrayAndString/ContinuousSubarraySum.class" beforeDir="false" afterPath="$PROJECT_DIR$/../out/production/algorithm/production/algorithm/leetcode/intermediate/arrayAndString/ContinuousSubarraySum.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/algorithm/production/algorithm/leetcode/intermediate/arrayAndString/FindKClosestElements.class" beforeDir="false" afterPath="$PROJECT_DIR$/../out/production/algorithm/production/algorithm/leetcode/intermediate/arrayAndString/FindKClosestElements.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/algorithm/production/algorithm/leetcode/intermediate/arrayAndString/FourSum.class" beforeDir="false" afterPath="$PROJECT_DIR$/../out/production/algorithm/production/algorithm/leetcode/intermediate/arrayAndString/FourSum.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/algorithm/production/algorithm/leetcode/intermediate/arrayAndString/GrayCode.class" beforeDir="false" afterPath="$PROJECT_DIR$/../out/production/algorithm/production/algorithm/leetcode/intermediate/arrayAndString/GrayCode.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/algorithm/production/algorithm/leetcode/intermediate/arrayAndString/GroupAnagrams.class" beforeDir="false" afterPath="$PROJECT_DIR$/../out/production/algorithm/production/algorithm/leetcode/intermediate/arrayAndString/GroupAnagrams.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/algorithm/production/algorithm/leetcode/intermediate/arrayAndString/IncreasingTriplet.class" beforeDir="false" afterPath="$PROJECT_DIR$/../out/production/algorithm/production/algorithm/leetcode/intermediate/arrayAndString/IncreasingTriplet.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/algorithm/production/algorithm/leetcode/intermediate/arrayAndString/LengthOfLongestSubstring.class" beforeDir="false" afterPath="$PROJECT_DIR$/../out/production/algorithm/production/algorithm/leetcode/intermediate/arrayAndString/LengthOfLongestSubstring.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/algorithm/production/algorithm/leetcode/intermediate/arrayAndString/LongestPalindrome.class" beforeDir="false" afterPath="$PROJECT_DIR$/../out/production/algorithm/production/algorithm/leetcode/intermediate/arrayAndString/LongestPalindrome.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/algorithm/production/algorithm/leetcode/intermediate/arrayAndString/MaximumProductOfThreeNumbers.class" beforeDir="false" afterPath="$PROJECT_DIR$/../out/production/algorithm/production/algorithm/leetcode/intermediate/arrayAndString/MaximumProductOfThreeNumbers.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/algorithm/production/algorithm/leetcode/intermediate/arrayAndString/MultiplyStrings.class" beforeDir="false" afterPath="$PROJECT_DIR$/../out/production/algorithm/production/algorithm/leetcode/intermediate/arrayAndString/MultiplyStrings.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/algorithm/production/algorithm/leetcode/intermediate/arrayAndString/NextPermutation.class" beforeDir="false" afterPath="$PROJECT_DIR$/../out/production/algorithm/production/algorithm/leetcode/intermediate/arrayAndString/NextPermutation.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/algorithm/production/algorithm/leetcode/intermediate/arrayAndString/SearchA2dMatrix.class" beforeDir="false" afterPath="$PROJECT_DIR$/../out/production/algorithm/production/algorithm/leetcode/intermediate/arrayAndString/SearchA2dMatrix.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/algorithm/production/algorithm/leetcode/intermediate/arrayAndString/SearchInRotatedSortedArrayII.class" beforeDir="false" afterPath="$PROJECT_DIR$/../out/production/algorithm/production/algorithm/leetcode/intermediate/arrayAndString/SearchInRotatedSortedArrayII.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/algorithm/production/algorithm/leetcode/intermediate/arrayAndString/SetZeroes.class" beforeDir="false" afterPath="$PROJECT_DIR$/../out/production/algorithm/production/algorithm/leetcode/intermediate/arrayAndString/SetZeroes.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/algorithm/production/algorithm/leetcode/intermediate/arrayAndString/SpiralMatrix.class" beforeDir="false" afterPath="$PROJECT_DIR$/../out/production/algorithm/production/algorithm/leetcode/intermediate/arrayAndString/SpiralMatrix.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/algorithm/production/algorithm/leetcode/intermediate/arrayAndString/SpiralMatrixII.class" beforeDir="false" afterPath="$PROJECT_DIR$/../out/production/algorithm/production/algorithm/leetcode/intermediate/arrayAndString/SpiralMatrixII.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/algorithm/production/algorithm/leetcode/intermediate/arrayAndString/ThreeSum.class" beforeDir="false" afterPath="$PROJECT_DIR$/../out/production/algorithm/production/algorithm/leetcode/intermediate/arrayAndString/ThreeSum.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/algorithm/production/algorithm/leetcode/intermediate/arrayAndString/ThreeSumClosest.class" beforeDir="false" afterPath="$PROJECT_DIR$/../out/production/algorithm/production/algorithm/leetcode/intermediate/arrayAndString/ThreeSumClosest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/algorithm/production/algorithm/leetcode/intermediate/designProblem/ImplementTriePrefixTree$Node.class" beforeDir="false" afterPath="$PROJECT_DIR$/../out/production/algorithm/production/algorithm/leetcode/intermediate/designProblem/ImplementTriePrefixTree$Node.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/algorithm/production/algorithm/leetcode/intermediate/designProblem/ImplementTriePrefixTree$Node2.class" beforeDir="false" afterPath="$PROJECT_DIR$/../out/production/algorithm/production/algorithm/leetcode/intermediate/designProblem/ImplementTriePrefixTree$Node2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/algorithm/production/algorithm/leetcode/intermediate/designProblem/ImplementTriePrefixTree.class" beforeDir="false" afterPath="$PROJECT_DIR$/../out/production/algorithm/production/algorithm/leetcode/intermediate/designProblem/ImplementTriePrefixTree.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/algorithm/production/algorithm/leetcode/intermediate/designProblem/RandomizedSet.class" beforeDir="false" afterPath="$PROJECT_DIR$/../out/production/algorithm/production/algorithm/leetcode/intermediate/designProblem/RandomizedSet.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/algorithm/production/algorithm/leetcode/intermediate/designProblem/SerializeAndDeserialize.class" beforeDir="false" afterPath="$PROJECT_DIR$/../out/production/algorithm/production/algorithm/leetcode/intermediate/designProblem/SerializeAndDeserialize.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/algorithm/production/algorithm/leetcode/intermediate/dynamicPlanning/CanJump.class" beforeDir="false" afterPath="$PROJECT_DIR$/../out/production/algorithm/production/algorithm/leetcode/intermediate/dynamicPlanning/CanJump.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/algorithm/production/algorithm/leetcode/intermediate/dynamicPlanning/CoinChange.class" beforeDir="false" afterPath="$PROJECT_DIR$/../out/production/algorithm/production/algorithm/leetcode/intermediate/dynamicPlanning/CoinChange.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/algorithm/production/algorithm/leetcode/intermediate/dynamicPlanning/LongestIncreasingSubsequence.class" beforeDir="false" afterPath="$PROJECT_DIR$/../out/production/algorithm/production/algorithm/leetcode/intermediate/dynamicPlanning/LongestIncreasingSubsequence.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/algorithm/production/algorithm/leetcode/intermediate/dynamicPlanning/UniquePaths.class" beforeDir="false" afterPath="$PROJECT_DIR$/../out/production/algorithm/production/algorithm/leetcode/intermediate/dynamicPlanning/UniquePaths.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/algorithm/production/algorithm/leetcode/intermediate/math/Divide.class" beforeDir="false" afterPath="$PROJECT_DIR$/../out/production/algorithm/production/algorithm/leetcode/intermediate/math/Divide.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/algorithm/production/algorithm/leetcode/intermediate/math/EscapeTheGhosts.class" beforeDir="false" afterPath="$PROJECT_DIR$/../out/production/algorithm/production/algorithm/leetcode/intermediate/math/EscapeTheGhosts.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/algorithm/production/algorithm/leetcode/intermediate/math/FractionToDecimal.class" beforeDir="false" afterPath="$PROJECT_DIR$/../out/production/algorithm/production/algorithm/leetcode/intermediate/math/FractionToDecimal.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/algorithm/production/algorithm/leetcode/intermediate/math/IsHappy.class" beforeDir="false" afterPath="$PROJECT_DIR$/../out/production/algorithm/production/algorithm/leetcode/intermediate/math/IsHappy.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/algorithm/production/algorithm/leetcode/intermediate/math/MyPow.class" beforeDir="false" afterPath="$PROJECT_DIR$/../out/production/algorithm/production/algorithm/leetcode/intermediate/math/MyPow.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/algorithm/production/algorithm/leetcode/intermediate/math/MySqrt.class" beforeDir="false" afterPath="$PROJECT_DIR$/../out/production/algorithm/production/algorithm/leetcode/intermediate/math/MySqrt.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/algorithm/production/algorithm/leetcode/intermediate/math/TitleToNumber.class" beforeDir="false" afterPath="$PROJECT_DIR$/../out/production/algorithm/production/algorithm/leetcode/intermediate/math/TitleToNumber.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/algorithm/production/algorithm/leetcode/intermediate/math/TrailingZeroes.class" beforeDir="false" afterPath="$PROJECT_DIR$/../out/production/algorithm/production/algorithm/leetcode/intermediate/math/TrailingZeroes.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/algorithm/production/algorithm/leetcode/intermediate/other/EvalRPN.class" beforeDir="false" afterPath="$PROJECT_DIR$/../out/production/algorithm/production/algorithm/leetcode/intermediate/other/EvalRPN.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/algorithm/production/algorithm/leetcode/intermediate/other/GetSum.class" beforeDir="false" afterPath="$PROJECT_DIR$/../out/production/algorithm/production/algorithm/leetcode/intermediate/other/GetSum.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/algorithm/production/algorithm/leetcode/intermediate/other/LeastInterval.class" beforeDir="false" afterPath="$PROJECT_DIR$/../out/production/algorithm/production/algorithm/leetcode/intermediate/other/LeastInterval.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/algorithm/production/algorithm/leetcode/intermediate/other/MajorityEllement.class" beforeDir="false" afterPath="$PROJECT_DIR$/../out/production/algorithm/production/algorithm/leetcode/intermediate/other/MajorityEllement.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/algorithm/production/algorithm/leetcode/intermediate/sortAndSearch/FindKthLargest.class" beforeDir="false" afterPath="$PROJECT_DIR$/../out/production/algorithm/production/algorithm/leetcode/intermediate/sortAndSearch/FindKthLargest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/algorithm/production/algorithm/leetcode/intermediate/sortAndSearch/Interval.class" beforeDir="false" afterPath="$PROJECT_DIR$/../out/production/algorithm/production/algorithm/leetcode/intermediate/sortAndSearch/Interval.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/algorithm/production/algorithm/leetcode/intermediate/sortAndSearch/Search.class" beforeDir="false" afterPath="$PROJECT_DIR$/../out/production/algorithm/production/algorithm/leetcode/intermediate/sortAndSearch/Search.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/algorithm/production/algorithm/leetcode/intermediate/sortAndSearch/SearchMatrix.class" beforeDir="false" afterPath="$PROJECT_DIR$/../out/production/algorithm/production/algorithm/leetcode/intermediate/sortAndSearch/SearchMatrix.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/algorithm/production/algorithm/leetcode/intermediate/sortAndSearch/SearchRange.class" beforeDir="false" afterPath="$PROJECT_DIR$/../out/production/algorithm/production/algorithm/leetcode/intermediate/sortAndSearch/SearchRange.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/algorithm/production/algorithm/leetcode/intermediate/sortAndSearch/SortColors.class" beforeDir="false" afterPath="$PROJECT_DIR$/../out/production/algorithm/production/algorithm/leetcode/intermediate/sortAndSearch/SortColors.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/algorithm/production/algorithm/leetcode/intermediate/sortAndSearch/TopKFrequent.class" beforeDir="false" afterPath="$PROJECT_DIR$/../out/production/algorithm/production/algorithm/leetcode/intermediate/sortAndSearch/TopKFrequent.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/algorithm/production/algorithm/leetcode/intermediate/sortAndSearch/findPeakElement.class" beforeDir="false" afterPath="$PROJECT_DIR$/../out/production/algorithm/production/algorithm/leetcode/intermediate/sortAndSearch/findPeakElement.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/algorithm/production/algorithm/leetcode/intermediate/sortAndSearch/mergeInterval.class" beforeDir="false" afterPath="$PROJECT_DIR$/../out/production/algorithm/production/algorithm/leetcode/intermediate/sortAndSearch/mergeInterval.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/algorithm/production/algorithm/leetcode/primary/array/ContainsDuplicate.class" beforeDir="false" afterPath="$PROJECT_DIR$/../out/production/algorithm/production/algorithm/leetcode/primary/array/ContainsDuplicate.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/algorithm/production/algorithm/leetcode/primary/array/FindAllNumbersDisappearedInAnArray.class" beforeDir="false" afterPath="$PROJECT_DIR$/../out/production/algorithm/production/algorithm/leetcode/primary/array/FindAllNumbersDisappearedInAnArray.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/algorithm/production/algorithm/leetcode/primary/array/Insertsect.class" beforeDir="false" afterPath="$PROJECT_DIR$/../out/production/algorithm/production/algorithm/leetcode/primary/array/Insertsect.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/algorithm/production/algorithm/leetcode/primary/array/IsValidSudoku.class" beforeDir="false" afterPath="$PROJECT_DIR$/../out/production/algorithm/production/algorithm/leetcode/primary/array/IsValidSudoku.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/algorithm/production/algorithm/leetcode/primary/array/MaxProfit.class" beforeDir="false" afterPath="$PROJECT_DIR$/../out/production/algorithm/production/algorithm/leetcode/primary/array/MaxProfit.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/algorithm/production/algorithm/leetcode/primary/array/MoveZeroes.class" beforeDir="false" afterPath="$PROJECT_DIR$/../out/production/algorithm/production/algorithm/leetcode/primary/array/MoveZeroes.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/algorithm/production/algorithm/leetcode/primary/array/PlusOne.class" beforeDir="false" afterPath="$PROJECT_DIR$/../out/production/algorithm/production/algorithm/leetcode/primary/array/PlusOne.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/algorithm/production/algorithm/leetcode/primary/array/RemoveDuplicates.class" beforeDir="false" afterPath="$PROJECT_DIR$/../out/production/algorithm/production/algorithm/leetcode/primary/array/RemoveDuplicates.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/algorithm/production/algorithm/leetcode/primary/array/Rotate.class" beforeDir="false" afterPath="$PROJECT_DIR$/../out/production/algorithm/production/algorithm/leetcode/primary/array/Rotate.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/algorithm/production/algorithm/leetcode/primary/array/RotateMatrix.class" beforeDir="false" afterPath="$PROJECT_DIR$/../out/production/algorithm/production/algorithm/leetcode/primary/array/RotateMatrix.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/algorithm/production/algorithm/leetcode/primary/array/SingleNumber.class" beforeDir="false" afterPath="$PROJECT_DIR$/../out/production/algorithm/production/algorithm/leetcode/primary/array/SingleNumber.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/algorithm/production/algorithm/leetcode/primary/array/ThirdMaximumNumber.class" beforeDir="false" afterPath="$PROJECT_DIR$/../out/production/algorithm/production/algorithm/leetcode/primary/array/ThirdMaximumNumber.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/algorithm/production/algorithm/leetcode/primary/array/TwoSum.class" beforeDir="false" afterPath="$PROJECT_DIR$/../out/production/algorithm/production/algorithm/leetcode/primary/array/TwoSum.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/algorithm/production/algorithm/leetcode/primary/design/MinStack.class" beforeDir="false" afterPath="$PROJECT_DIR$/../out/production/algorithm/production/algorithm/leetcode/primary/design/MinStack.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/algorithm/production/algorithm/leetcode/primary/design/MinStack2.class" beforeDir="false" afterPath="$PROJECT_DIR$/../out/production/algorithm/production/algorithm/leetcode/primary/design/MinStack2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/algorithm/production/algorithm/leetcode/primary/design/ShuffleAnArray.class" beforeDir="false" afterPath="$PROJECT_DIR$/../out/production/algorithm/production/algorithm/leetcode/primary/design/ShuffleAnArray.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/algorithm/production/algorithm/leetcode/primary/dynamicPlanning/ClimbStairs.class" beforeDir="false" afterPath="$PROJECT_DIR$/../out/production/algorithm/production/algorithm/leetcode/primary/dynamicPlanning/ClimbStairs.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/algorithm/production/algorithm/leetcode/primary/dynamicPlanning/MaxSubArray.class" beforeDir="false" afterPath="$PROJECT_DIR$/../out/production/algorithm/production/algorithm/leetcode/primary/dynamicPlanning/MaxSubArray.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/algorithm/production/algorithm/leetcode/primary/dynamicPlanning/Maxprofit.class" beforeDir="false" afterPath="$PROJECT_DIR$/../out/production/algorithm/production/algorithm/leetcode/primary/dynamicPlanning/Maxprofit.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/algorithm/production/algorithm/leetcode/primary/dynamicPlanning/Rob.class" beforeDir="false" afterPath="$PROJECT_DIR$/../out/production/algorithm/production/algorithm/leetcode/primary/dynamicPlanning/Rob.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/algorithm/production/algorithm/leetcode/primary/linkedList/Linkedlist.class" beforeDir="false" afterPath="$PROJECT_DIR$/../out/production/algorithm/production/algorithm/leetcode/primary/linkedList/Linkedlist.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/algorithm/production/algorithm/leetcode/primary/linkedList/RotateList.class" beforeDir="false" afterPath="$PROJECT_DIR$/../out/production/algorithm/production/algorithm/leetcode/primary/linkedList/RotateList.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/algorithm/production/algorithm/leetcode/primary/math/CountPrimes.class" beforeDir="false" afterPath="$PROJECT_DIR$/../out/production/algorithm/production/algorithm/leetcode/primary/math/CountPrimes.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/algorithm/production/algorithm/leetcode/primary/math/FizzBuzz.class" beforeDir="false" afterPath="$PROJECT_DIR$/../out/production/algorithm/production/algorithm/leetcode/primary/math/FizzBuzz.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/algorithm/production/algorithm/leetcode/primary/math/IsPowerOfThree.class" beforeDir="false" afterPath="$PROJECT_DIR$/../out/production/algorithm/production/algorithm/leetcode/primary/math/IsPowerOfThree.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/algorithm/production/algorithm/leetcode/primary/math/RomanToInt.class" beforeDir="false" afterPath="$PROJECT_DIR$/../out/production/algorithm/production/algorithm/leetcode/primary/math/RomanToInt.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/algorithm/production/algorithm/leetcode/primary/other/BracketsIsValid.class" beforeDir="false" afterPath="$PROJECT_DIR$/../out/production/algorithm/production/algorithm/leetcode/primary/other/BracketsIsValid.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/algorithm/production/algorithm/leetcode/primary/other/HammingDistance.class" beforeDir="false" afterPath="$PROJECT_DIR$/../out/production/algorithm/production/algorithm/leetcode/primary/other/HammingDistance.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/algorithm/production/algorithm/leetcode/primary/other/HammingWeight.class" beforeDir="false" afterPath="$PROJECT_DIR$/../out/production/algorithm/production/algorithm/leetcode/primary/other/HammingWeight.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/algorithm/production/algorithm/leetcode/primary/other/MissingNumber.class" beforeDir="false" afterPath="$PROJECT_DIR$/../out/production/algorithm/production/algorithm/leetcode/primary/other/MissingNumber.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/algorithm/production/algorithm/leetcode/primary/other/NimGame.class" beforeDir="false" afterPath="$PROJECT_DIR$/../out/production/algorithm/production/algorithm/leetcode/primary/other/NimGame.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/algorithm/production/algorithm/leetcode/primary/other/ReverseBits.class" beforeDir="false" afterPath="$PROJECT_DIR$/../out/production/algorithm/production/algorithm/leetcode/primary/other/ReverseBits.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/algorithm/production/algorithm/leetcode/primary/other/YanghuiAngle.class" beforeDir="false" afterPath="$PROJECT_DIR$/../out/production/algorithm/production/algorithm/leetcode/primary/other/YanghuiAngle.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/algorithm/production/algorithm/leetcode/primary/sortAndSearch/BinarySearch.class" beforeDir="false" afterPath="$PROJECT_DIR$/../out/production/algorithm/production/algorithm/leetcode/primary/sortAndSearch/BinarySearch.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/algorithm/production/algorithm/leetcode/primary/sortAndSearch/Merge.class" beforeDir="false" afterPath="$PROJECT_DIR$/../out/production/algorithm/production/algorithm/leetcode/primary/sortAndSearch/Merge.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/algorithm/production/algorithm/leetcode/primary/string/CountAndSay.class" beforeDir="false" afterPath="$PROJECT_DIR$/../out/production/algorithm/production/algorithm/leetcode/primary/string/CountAndSay.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/algorithm/production/algorithm/leetcode/primary/string/FirstUniqChar.class" beforeDir="false" afterPath="$PROJECT_DIR$/../out/production/algorithm/production/algorithm/leetcode/primary/string/FirstUniqChar.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/algorithm/production/algorithm/leetcode/primary/string/IsAnagram.class" beforeDir="false" afterPath="$PROJECT_DIR$/../out/production/algorithm/production/algorithm/leetcode/primary/string/IsAnagram.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/algorithm/production/algorithm/leetcode/primary/string/IsPalindrome.class" beforeDir="false" afterPath="$PROJECT_DIR$/../out/production/algorithm/production/algorithm/leetcode/primary/string/IsPalindrome.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/algorithm/production/algorithm/leetcode/primary/string/LongestCommonPrefix.class" beforeDir="false" afterPath="$PROJECT_DIR$/../out/production/algorithm/production/algorithm/leetcode/primary/string/LongestCommonPrefix.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/algorithm/production/algorithm/leetcode/primary/string/MyAtoi.class" beforeDir="false" afterPath="$PROJECT_DIR$/../out/production/algorithm/production/algorithm/leetcode/primary/string/MyAtoi.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/algorithm/production/algorithm/leetcode/primary/string/ReverseInteger.class" beforeDir="false" afterPath="$PROJECT_DIR$/../out/production/algorithm/production/algorithm/leetcode/primary/string/ReverseInteger.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/algorithm/production/algorithm/leetcode/primary/string/ReverseString.class" beforeDir="false" afterPath="$PROJECT_DIR$/../out/production/algorithm/production/algorithm/leetcode/primary/string/ReverseString.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/algorithm/production/algorithm/leetcode/primary/string/ReverseWordsInAStringiii.class" beforeDir="false" afterPath="$PROJECT_DIR$/../out/production/algorithm/production/algorithm/leetcode/primary/string/ReverseWordsInAStringiii.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/algorithm/production/algorithm/leetcode/primary/string/StrStr.class" beforeDir="false" afterPath="$PROJECT_DIR$/../out/production/algorithm/production/algorithm/leetcode/primary/string/StrStr.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/algorithm/production/algorithm/leetcode/primary/tree/TreeNodeExercise.class" beforeDir="false" afterPath="$PROJECT_DIR$/../out/production/algorithm/production/algorithm/leetcode/primary/tree/TreeNodeExercise.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/algorithm/production/algorithm/leetcode/traceback/BinaryWatch.class" beforeDir="false" afterPath="$PROJECT_DIR$/../out/production/algorithm/production/algorithm/leetcode/traceback/BinaryWatch.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/algorithm/production/algorithm/leetcode/traceback/CombinationSum2.class" beforeDir="false" afterPath="$PROJECT_DIR$/../out/production/algorithm/production/algorithm/leetcode/traceback/CombinationSum2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/algorithm/production/algorithm/leetcode/traceback/CombinationSum3.class" beforeDir="false" afterPath="$PROJECT_DIR$/../out/production/algorithm/production/algorithm/leetcode/traceback/CombinationSum3.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/algorithm/production/algorithm/leetcode/traceback/ConbinationSum.class" beforeDir="false" afterPath="$PROJECT_DIR$/../out/production/algorithm/production/algorithm/leetcode/traceback/ConbinationSum.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/algorithm/production/algorithm/leetcode/traceback/LetterCasePermutation.class" beforeDir="false" afterPath="$PROJECT_DIR$/../out/production/algorithm/production/algorithm/leetcode/traceback/LetterCasePermutation.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/algorithm/production/algorithm/leetcode/traceback/NQueensQuention.class" beforeDir="false" afterPath="$PROJECT_DIR$/../out/production/algorithm/production/algorithm/leetcode/traceback/NQueensQuention.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/algorithm/production/algorithm/leetcode/traceback/SubsetsII.class" beforeDir="false" afterPath="$PROJECT_DIR$/../out/production/algorithm/production/algorithm/leetcode/traceback/SubsetsII.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/algorithm/production/algorithm/leetcode/traceback/Sudoku.class" beforeDir="false" afterPath="$PROJECT_DIR$/../out/production/algorithm/production/algorithm/leetcode/traceback/Sudoku.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/algorithm/production/algorithm/leetcode/traceback/permtations3.class" beforeDir="false" afterPath="$PROJECT_DIR$/../out/production/algorithm/production/algorithm/leetcode/traceback/permtations3.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/algorithm/production/algorithm/leetcode/traceback/permutations2.class" beforeDir="false" afterPath="$PROJECT_DIR$/../out/production/algorithm/production/algorithm/leetcode/traceback/permutations2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/algorithm/production/algorithm/niukewang/CowCowBackpack.class" beforeDir="false" afterPath="$PROJECT_DIR$/../out/production/algorithm/production/algorithm/niukewang/CowCowBackpack.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/algorithm/production/algorithm/niukewang/DynamicPlanning/Choir.class" beforeDir="false" afterPath="$PROJECT_DIR$/../out/production/algorithm/production/algorithm/niukewang/DynamicPlanning/Choir.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/algorithm/production/algorithm/niukewang/DynamicPlanning/LCS.class" beforeDir="false" afterPath="$PROJECT_DIR$/../out/production/algorithm/production/algorithm/niukewang/DynamicPlanning/LCS.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/algorithm/production/algorithm/niukewang/DynamicPlanning/LIS.class" beforeDir="false" afterPath="$PROJECT_DIR$/../out/production/algorithm/production/algorithm/niukewang/DynamicPlanning/LIS.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/algorithm/production/algorithm/niukewang/DynamicPlanning/backpackProblem/Backpack01.class" beforeDir="false" afterPath="$PROJECT_DIR$/../out/production/algorithm/production/algorithm/niukewang/DynamicPlanning/backpackProblem/Backpack01.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/algorithm/production/algorithm/niukewang/DynamicPlanning/backpackProblem/CoinChange.class" beforeDir="false" afterPath="$PROJECT_DIR$/../out/production/algorithm/production/algorithm/niukewang/DynamicPlanning/backpackProblem/CoinChange.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/algorithm/production/algorithm/niukewang/DynamicPlanning/ladder.class" beforeDir="false" afterPath="$PROJECT_DIR$/../out/production/algorithm/production/algorithm/niukewang/DynamicPlanning/ladder.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/algorithm/production/algorithm/swordToOffer/Add.class" beforeDir="false" afterPath="$PROJECT_DIR$/../out/production/algorithm/production/algorithm/swordToOffer/Add.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/algorithm/production/algorithm/swordToOffer/CloneRandomListNode.class" beforeDir="false" afterPath="$PROJECT_DIR$/../out/production/algorithm/production/algorithm/swordToOffer/CloneRandomListNode.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/algorithm/production/algorithm/swordToOffer/Convert.class" beforeDir="false" afterPath="$PROJECT_DIR$/../out/production/algorithm/production/algorithm/swordToOffer/Convert.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/algorithm/production/algorithm/swordToOffer/DeleteDuplication.class" beforeDir="false" afterPath="$PROJECT_DIR$/../out/production/algorithm/production/algorithm/swordToOffer/DeleteDuplication.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/algorithm/production/algorithm/swordToOffer/Duplicate.class" beforeDir="false" afterPath="$PROJECT_DIR$/../out/production/algorithm/production/algorithm/swordToOffer/Duplicate.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/algorithm/production/algorithm/swordToOffer/EntryNodeOfLoop.class" beforeDir="false" afterPath="$PROJECT_DIR$/../out/production/algorithm/production/algorithm/swordToOffer/EntryNodeOfLoop.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/algorithm/production/algorithm/swordToOffer/Fibonacci.class" beforeDir="false" afterPath="$PROJECT_DIR$/../out/production/algorithm/production/algorithm/swordToOffer/Fibonacci.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/algorithm/production/algorithm/swordToOffer/FindContinuousSequence.class" beforeDir="false" afterPath="$PROJECT_DIR$/../out/production/algorithm/production/algorithm/swordToOffer/FindContinuousSequence.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/algorithm/production/algorithm/swordToOffer/FindFirstCommonNode.class" beforeDir="false" afterPath="$PROJECT_DIR$/../out/production/algorithm/production/algorithm/swordToOffer/FindFirstCommonNode.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/algorithm/production/algorithm/swordToOffer/FindGreatestSumOfSubArray.class" beforeDir="false" afterPath="$PROJECT_DIR$/../out/production/algorithm/production/algorithm/swordToOffer/FindGreatestSumOfSubArray.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/algorithm/production/algorithm/swordToOffer/FindInTwoDimensionArray.class" beforeDir="false" afterPath="$PROJECT_DIR$/../out/production/algorithm/production/algorithm/swordToOffer/FindInTwoDimensionArray.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/algorithm/production/algorithm/swordToOffer/FindKthToTail.class" beforeDir="false" afterPath="$PROJECT_DIR$/../out/production/algorithm/production/algorithm/swordToOffer/FindKthToTail.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/algorithm/production/algorithm/swordToOffer/FindNumbersWithSum.class" beforeDir="false" afterPath="$PROJECT_DIR$/../out/production/algorithm/production/algorithm/swordToOffer/FindNumbersWithSum.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/algorithm/production/algorithm/swordToOffer/FindNumsAppearOnce.class" beforeDir="false" afterPath="$PROJECT_DIR$/../out/production/algorithm/production/algorithm/swordToOffer/FindNumsAppearOnce.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/algorithm/production/algorithm/swordToOffer/FindPath.class" beforeDir="false" afterPath="$PROJECT_DIR$/../out/production/algorithm/production/algorithm/swordToOffer/FindPath.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/algorithm/production/algorithm/swordToOffer/FirstNotRepeatingChar.class" beforeDir="false" afterPath="$PROJECT_DIR$/../out/production/algorithm/production/algorithm/swordToOffer/FirstNotRepeatingChar.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/algorithm/production/algorithm/swordToOffer/FirstUnduplicateOfStream.class" beforeDir="false" afterPath="$PROJECT_DIR$/../out/production/algorithm/production/algorithm/swordToOffer/FirstUnduplicateOfStream.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/algorithm/production/algorithm/swordToOffer/GetLeastNumbers_Solution.class" beforeDir="false" afterPath="$PROJECT_DIR$/../out/production/algorithm/production/algorithm/swordToOffer/GetLeastNumbers_Solution.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/algorithm/production/algorithm/swordToOffer/GetNext.class" beforeDir="false" afterPath="$PROJECT_DIR$/../out/production/algorithm/production/algorithm/swordToOffer/GetNext.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/algorithm/production/algorithm/swordToOffer/GetNumberOfK.class" beforeDir="false" afterPath="$PROJECT_DIR$/../out/production/algorithm/production/algorithm/swordToOffer/GetNumberOfK.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/algorithm/production/algorithm/swordToOffer/GetUglyNumber_Solution.class" beforeDir="false" afterPath="$PROJECT_DIR$/../out/production/algorithm/production/algorithm/swordToOffer/GetUglyNumber_Solution.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/algorithm/production/algorithm/swordToOffer/HasPath.class" beforeDir="false" afterPath="$PROJECT_DIR$/../out/production/algorithm/production/algorithm/swordToOffer/HasPath.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/algorithm/production/algorithm/swordToOffer/HasSubtree.class" beforeDir="false" afterPath="$PROJECT_DIR$/../out/production/algorithm/production/algorithm/swordToOffer/HasSubtree.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/algorithm/production/algorithm/swordToOffer/InversePairs.class" beforeDir="false" afterPath="$PROJECT_DIR$/../out/production/algorithm/production/algorithm/swordToOffer/InversePairs.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/algorithm/production/algorithm/swordToOffer/IsBalanced_Solution.class" beforeDir="false" afterPath="$PROJECT_DIR$/../out/production/algorithm/production/algorithm/swordToOffer/IsBalanced_Solution.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/algorithm/production/algorithm/swordToOffer/IsContinuous.class" beforeDir="false" afterPath="$PROJECT_DIR$/../out/production/algorithm/production/algorithm/swordToOffer/IsContinuous.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/algorithm/production/algorithm/swordToOffer/IsNumeric.class" beforeDir="false" afterPath="$PROJECT_DIR$/../out/production/algorithm/production/algorithm/swordToOffer/IsNumeric.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/algorithm/production/algorithm/swordToOffer/IsPopOrder.class" beforeDir="false" afterPath="$PROJECT_DIR$/../out/production/algorithm/production/algorithm/swordToOffer/IsPopOrder.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/algorithm/production/algorithm/swordToOffer/IsSymmetrical.class" beforeDir="false" afterPath="$PROJECT_DIR$/../out/production/algorithm/production/algorithm/swordToOffer/IsSymmetrical.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/algorithm/production/algorithm/swordToOffer/JumpFloor.class" beforeDir="false" afterPath="$PROJECT_DIR$/../out/production/algorithm/production/algorithm/swordToOffer/JumpFloor.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/algorithm/production/algorithm/swordToOffer/JumpFloorII.class" beforeDir="false" afterPath="$PROJECT_DIR$/../out/production/algorithm/production/algorithm/swordToOffer/JumpFloorII.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/algorithm/production/algorithm/swordToOffer/KthNode.class" beforeDir="false" afterPath="$PROJECT_DIR$/../out/production/algorithm/production/algorithm/swordToOffer/KthNode.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/algorithm/production/algorithm/swordToOffer/LastRemaining_Solution.class" beforeDir="false" afterPath="$PROJECT_DIR$/../out/production/algorithm/production/algorithm/swordToOffer/LastRemaining_Solution.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/algorithm/production/algorithm/swordToOffer/LeftRotateString.class" beforeDir="false" afterPath="$PROJECT_DIR$/../out/production/algorithm/production/algorithm/swordToOffer/LeftRotateString.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/algorithm/production/algorithm/swordToOffer/MaxInWindows.class" beforeDir="false" afterPath="$PROJECT_DIR$/../out/production/algorithm/production/algorithm/swordToOffer/MaxInWindows.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/algorithm/production/algorithm/swordToOffer/MedianOfStream.class" beforeDir="false" afterPath="$PROJECT_DIR$/../out/production/algorithm/production/algorithm/swordToOffer/MedianOfStream.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/algorithm/production/algorithm/swordToOffer/Merge.class" beforeDir="false" afterPath="$PROJECT_DIR$/../out/production/algorithm/production/algorithm/swordToOffer/Merge.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/algorithm/production/algorithm/swordToOffer/MinNumberInRotateArray.class" beforeDir="false" afterPath="$PROJECT_DIR$/../out/production/algorithm/production/algorithm/swordToOffer/MinNumberInRotateArray.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/algorithm/production/algorithm/swordToOffer/MinStack.class" beforeDir="false" afterPath="$PROJECT_DIR$/../out/production/algorithm/production/algorithm/swordToOffer/MinStack.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/algorithm/production/algorithm/swordToOffer/Mirror.class" beforeDir="false" afterPath="$PROJECT_DIR$/../out/production/algorithm/production/algorithm/swordToOffer/Mirror.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/algorithm/production/algorithm/swordToOffer/MoreThanHalfNum_Solution.class" beforeDir="false" afterPath="$PROJECT_DIR$/../out/production/algorithm/production/algorithm/swordToOffer/MoreThanHalfNum_Solution.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/algorithm/production/algorithm/swordToOffer/MovingCount.class" beforeDir="false" afterPath="$PROJECT_DIR$/../out/production/algorithm/production/algorithm/swordToOffer/MovingCount.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/algorithm/production/algorithm/swordToOffer/Multiply.class" beforeDir="false" afterPath="$PROJECT_DIR$/../out/production/algorithm/production/algorithm/swordToOffer/Multiply.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/algorithm/production/algorithm/swordToOffer/NumberOf1.class" beforeDir="false" afterPath="$PROJECT_DIR$/../out/production/algorithm/production/algorithm/swordToOffer/NumberOf1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/algorithm/production/algorithm/swordToOffer/NumberOf1Between1AndN_Solution.class" beforeDir="false" afterPath="$PROJECT_DIR$/../out/production/algorithm/production/algorithm/swordToOffer/NumberOf1Between1AndN_Solution.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/algorithm/production/algorithm/swordToOffer/Power.class" beforeDir="false" afterPath="$PROJECT_DIR$/../out/production/algorithm/production/algorithm/swordToOffer/Power.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/algorithm/production/algorithm/swordToOffer/Print.class" beforeDir="false" afterPath="$PROJECT_DIR$/../out/production/algorithm/production/algorithm/swordToOffer/Print.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/algorithm/production/algorithm/swordToOffer/PrintFromTopToBottom.class" beforeDir="false" afterPath="$PROJECT_DIR$/../out/production/algorithm/production/algorithm/swordToOffer/PrintFromTopToBottom.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/algorithm/production/algorithm/swordToOffer/PrintListFromTailToHead.class" beforeDir="false" afterPath="$PROJECT_DIR$/../out/production/algorithm/production/algorithm/swordToOffer/PrintListFromTailToHead.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/algorithm/production/algorithm/swordToOffer/PrintMinNumber.class" beforeDir="false" afterPath="$PROJECT_DIR$/../out/production/algorithm/production/algorithm/swordToOffer/PrintMinNumber.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/algorithm/production/algorithm/swordToOffer/PrintZ.class" beforeDir="false" afterPath="$PROJECT_DIR$/../out/production/algorithm/production/algorithm/swordToOffer/PrintZ.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/algorithm/production/algorithm/swordToOffer/PxrintMatrix.class" beforeDir="false" afterPath="$PROJECT_DIR$/../out/production/algorithm/production/algorithm/swordToOffer/PxrintMatrix.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/algorithm/production/algorithm/swordToOffer/RandomListNode.class" beforeDir="false" afterPath="$PROJECT_DIR$/../out/production/algorithm/production/algorithm/swordToOffer/RandomListNode.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/algorithm/production/algorithm/swordToOffer/ReConstructBinaryTree.class" beforeDir="false" afterPath="$PROJECT_DIR$/../out/production/algorithm/production/algorithm/swordToOffer/ReConstructBinaryTree.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/algorithm/production/algorithm/swordToOffer/ReOrderArray.class" beforeDir="false" afterPath="$PROJECT_DIR$/../out/production/algorithm/production/algorithm/swordToOffer/ReOrderArray.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/algorithm/production/algorithm/swordToOffer/RectCover.class" beforeDir="false" afterPath="$PROJECT_DIR$/../out/production/algorithm/production/algorithm/swordToOffer/RectCover.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/algorithm/production/algorithm/swordToOffer/RegexMatch.class" beforeDir="false" afterPath="$PROJECT_DIR$/../out/production/algorithm/production/algorithm/swordToOffer/RegexMatch.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/algorithm/production/algorithm/swordToOffer/ReplaceSpace.class" beforeDir="false" afterPath="$PROJECT_DIR$/../out/production/algorithm/production/algorithm/swordToOffer/ReplaceSpace.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/algorithm/production/algorithm/swordToOffer/ReverseList.class" beforeDir="false" afterPath="$PROJECT_DIR$/../out/production/algorithm/production/algorithm/swordToOffer/ReverseList.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/algorithm/production/algorithm/swordToOffer/ReverseSentence.class" beforeDir="false" afterPath="$PROJECT_DIR$/../out/production/algorithm/production/algorithm/swordToOffer/ReverseSentence.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/algorithm/production/algorithm/swordToOffer/SerializeAndDeserialize.class" beforeDir="false" afterPath="$PROJECT_DIR$/../out/production/algorithm/production/algorithm/swordToOffer/SerializeAndDeserialize.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/algorithm/production/algorithm/swordToOffer/StrToInt.class" beforeDir="false" afterPath="$PROJECT_DIR$/../out/production/algorithm/production/algorithm/swordToOffer/StrToInt.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/algorithm/production/algorithm/swordToOffer/Sum_Solution.class" beforeDir="false" afterPath="$PROJECT_DIR$/../out/production/algorithm/production/algorithm/swordToOffer/Sum_Solution.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/algorithm/production/algorithm/swordToOffer/TreeDepth.class" beforeDir="false" afterPath="$PROJECT_DIR$/../out/production/algorithm/production/algorithm/swordToOffer/TreeDepth.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/algorithm/production/algorithm/swordToOffer/TreeLinkNode.class" beforeDir="false" afterPath="$PROJECT_DIR$/../out/production/algorithm/production/algorithm/swordToOffer/TreeLinkNode.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/algorithm/production/algorithm/swordToOffer/TwoStackToQueue.class" beforeDir="false" afterPath="$PROJECT_DIR$/../out/production/algorithm/production/algorithm/swordToOffer/TwoStackToQueue.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/algorithm/production/algorithm/swordToOffer/VerifySequenceOfBST.class" beforeDir="false" afterPath="$PROJECT_DIR$/../out/production/algorithm/production/algorithm/swordToOffer/VerifySequenceOfBST.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/algorithm/production/algorithm/test/tree/rbTree/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/../out/production/algorithm/production/algorithm/test/tree/rbTree/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/algorithm/production/algorithm/test/tree/rbTree/RBTreeTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/../out/production/algorithm/production/algorithm/test/tree/rbTree/RBTreeTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/algorithm/production/algorithm/testDemo/FindAllDuplicatesInAnArray.class" beforeDir="false" afterPath="$PROJECT_DIR$/../out/production/algorithm/production/algorithm/testDemo/FindAllDuplicatesInAnArray.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/algorithm/production/algorithm/testDemo/MT.class" beforeDir="false" afterPath="$PROJECT_DIR$/../out/production/algorithm/production/algorithm/testDemo/MT.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/algorithm/production/algorithm/testDemo/Main$Avg.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/algorithm/production/algorithm/testDemo/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/../out/production/algorithm/production/algorithm/testDemo/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/algorithm/production/algorithm/testDemo/MainTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/../out/production/algorithm/production/algorithm/testDemo/MainTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/algorithm/production/algorithm/testDemo/One.class" beforeDir="false" afterPath="$PROJECT_DIR$/../out/production/algorithm/production/algorithm/testDemo/One.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/algorithm/production/algorithm/testDemo/T.class" beforeDir="false" afterPath="$PROJECT_DIR$/../out/production/algorithm/production/algorithm/testDemo/T.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/algorithm/production/algorithm/testDemo/Test$Node.class" beforeDir="false" afterPath="$PROJECT_DIR$/../out/production/algorithm/production/algorithm/testDemo/Test$Node.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/algorithm/production/algorithm/testDemo/Test.class" beforeDir="false" afterPath="$PROJECT_DIR$/../out/production/algorithm/production/algorithm/testDemo/Test.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/algorithm/sorting/Bubble.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/algorithm/sorting/BucketSorting.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/algorithm/sorting/CounteSorting.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/algorithm/sorting/InsertionSorting.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/algorithm/sorting/MergeSorting.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/algorithm/sorting/QuickSorting.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/algorithm/sorting/SelectionSorting.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/algorithm/sorting/ShellSorting.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/algorithm/sorting/SortingUtil.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/algorithm/sorting/TestSorting.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/algorithm/test/tree/rbTree/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/../out/production/algorithm/test/tree/rbTree/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/algorithm/test/tree/rbTree/RBTreeTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/../out/production/algorithm/test/tree/rbTree/RBTreeTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/algorithm/tree/rbTree/BinaryTree$Node.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/algorithm/tree/rbTree/BinaryTree.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/algorithm/tree/rbTree/BinaryTreeTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/algorithm/tree/rbTree/RBTree$Color.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/algorithm/tree/rbTree/RBTree$RBNode.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/algorithm/tree/rbTree/RBTree.class" beforeDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/socket/ServerExam.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="875">
+              <caret line="29" selection-start-line="29" selection-end-line="29" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/socket/ClientExam.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="280">
+              <caret line="8" column="24" selection-start-line="8" selection-start-column="24" selection-end-line="8" selection-end-column="24" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="jar://C:/Program Files/Java/jdk-11.0.2/lib/src.zip!/java.base/java/io/InputStreamReader.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="2205">
+              <caret line="88" column="42" selection-start-line="88" selection-start-column="42" selection-end-line="88" selection-end-column="42" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="jar://C:/Program Files/Java/jdk-11.0.2/lib/src.zip!/java.base/java/nio/charset/Charset.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="2450">
+              <caret line="114" column="1" selection-start-line="114" selection-start-column="1" selection-end-line="114" selection-end-column="1" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="jar://C:/Program Files/Java/jdk-11.0.2/lib/src.zip!/java.base/java/io/InputStream.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="12390">
+              <caret line="380" selection-start-line="380" selection-end-line="380" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="jrt://C:/Program Files/Java/jdk-11.0.2!/java.base/java/io/InputStream.class">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="35">
+              <caret line="4" selection-start-line="4" selection-end-line="4" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="jar://C:/Program Files/Java/jdk-11.0.2/lib/src.zip!/java.base/java/net/SocketInputStream.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="525">
+              <caret line="43" column="11" selection-start-line="43" selection-start-column="11" selection-end-line="43" selection-end-column="11" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="jar://C:/Program Files/Java/jdk-11.0.2/lib/src.zip!/java.base/java/text/DateFormat.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="16835">
+              <caret line="532" column="35" selection-start-line="532" selection-start-column="35" selection-end-line="532" selection-end-column="35" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/src/socket/Example.java" />
+        <option value="$PROJECT_DIR$/src/socket/ServerExam.java" />
+        <option value="$PROJECT_DIR$/src/socket/ClientExam.java" />
+      </list>
+    </option>
+  </component>
+  <component name="MavenProjectNavigator">
+    <treeState>
+      <expand />
+      <select />
+    </treeState>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="1358" />
+    <option name="y" value="-8" />
+    <option name="width" value="1456" />
+    <option name="height" value="916" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="network" type="b2602c69:ProjectViewProjectNode" />
+              <item name="network" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="network" type="b2602c69:ProjectViewProjectNode" />
+              <item name="network" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="network" type="b2602c69:ProjectViewProjectNode" />
+              <item name="network" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="socket" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="Downloaded.Files.Path.Enabled" value="false" />
+    <property name="Repository.Attach.Annotations" value="false" />
+    <property name="Repository.Attach.JavaDocs" value="false" />
+    <property name="Repository.Attach.Sources" value="false" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1548518829082" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../io" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="JUnit.ClientExam.testSocket">
+    <configuration name="ClientExam" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="socket.ClientExam" />
+      <module name="network" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="socket.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ServerExam" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="socket.ServerExam" />
+      <module name="network" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="socket.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ClientExam.testSocket" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="network" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="socket.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="socket" />
+      <option name="MAIN_CLASS_NAME" value="socket.ClientExam" />
+      <option name="METHOD_NAME" value="testSocket" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.ClientExam.testSocket" />
+        <item itemvalue="Application.ClientExam" />
+        <item itemvalue="Application.ServerExam" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="ec272794-dba5-44c8-8cc1-dd407f843f27" name="Default Changelist" comment="" />
+      <created>1548306837952</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1548306837952</updated>
+      <workItem from="1548306842099" duration="9152000" />
+      <workItem from="1548397405102" duration="572000" />
+      <workItem from="1548489849503" duration="1231000" />
+      <workItem from="1548557816480" duration="597000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TestHistory">
+    <history-entry file="ClientExam_testSocket - 2019.01.24 at 16h 29m 40s.xml">
+      <configuration name="ClientExam.testSocket" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ClientExam_testSocket - 2019.01.24 at 16h 31m 37s.xml">
+      <configuration name="ClientExam.testSocket" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ClientExam_testSocket - 2019.01.24 at 16h 32m 26s.xml">
+      <configuration name="ClientExam.testSocket" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ClientExam_testSocket - 2019.01.24 at 16h 33m 32s.xml">
+      <configuration name="ClientExam.testSocket" configurationId="JUnit" />
+    </history-entry>
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="11552000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="1358" y="-8" width="1456" height="886" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.13395415" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Designer" order="2" />
+      <window_info id="Image Layers" order="3" />
+      <window_info id="Capture Tool" order="4" />
+      <window_info id="UI Designer" order="5" />
+      <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info id="Learn" order="7" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49928367" visible="true" weight="0.32967034" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Messages" order="7" />
+      <window_info anchor="bottom" id="Terminal" order="8" />
+      <window_info anchor="bottom" id="Docker" order="9" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.5007163" side_tool="true" weight="0.32967034" />
+      <window_info anchor="bottom" id="Statistic" order="11" />
+      <window_info anchor="bottom" id="JProfiler" order="12" />
+      <window_info anchor="bottom" id="Database Changes" order="13" />
+      <window_info anchor="bottom" id="Version Control" order="14" weight="0.32967034" />
+      <window_info anchor="right" id="Palette" order="0" />
+      <window_info anchor="right" id="Capture Analysis" order="1" />
+      <window_info anchor="right" id="Translate" order="2" weight="0.3295129" />
+      <window_info anchor="right" id="Database" order="3" />
+      <window_info anchor="right" id="Palette&#9;" order="4" />
+      <window_info anchor="right" id="Theme Preview" order="5" />
+      <window_info anchor="right" id="Commander" order="6" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="7" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="8" weight="0.25" />
+      <window_info anchor="right" id="Maven" order="9" weight="0.3295129" />
+    </layout>
+    <layout-to-restore>
+      <window_info id="Designer" order="0" />
+      <window_info id="Image Layers" order="1" />
+      <window_info id="Capture Tool" order="2" />
+      <window_info id="UI Designer" order="3" />
+      <window_info id="Favorites" order="4" side_tool="true" />
+      <window_info id="Learn" order="5" />
+      <window_info content_ui="combo" id="Project" order="6" visible="true" weight="0.12965617" />
+      <window_info id="Structure" order="7" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="Messages" order="0" />
+      <window_info anchor="bottom" id="Terminal" order="1" />
+      <window_info anchor="bottom" id="Docker" order="2" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Event Log" order="3" sideWeight="0.5007163" side_tool="true" weight="0.32967034" />
+      <window_info anchor="bottom" id="Statistic" order="4" />
+      <window_info anchor="bottom" id="JProfiler" order="5" />
+      <window_info anchor="bottom" id="Database Changes" order="6" />
+      <window_info anchor="bottom" id="Version Control" order="7" weight="0.32967034" />
+      <window_info anchor="bottom" id="Message" order="8" />
+      <window_info anchor="bottom" id="Find" order="9" />
+      <window_info active="true" anchor="bottom" id="Run" order="10" sideWeight="0.49928367" visible="true" weight="0.32967034" />
+      <window_info anchor="bottom" id="Debug" order="11" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="12" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="13" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="14" />
+      <window_info anchor="right" id="Palette" order="0" />
+      <window_info anchor="right" id="Capture Analysis" order="1" />
+      <window_info anchor="right" id="Translate" order="2" weight="0.3295129" />
+      <window_info anchor="right" id="Database" order="3" />
+      <window_info anchor="right" id="Palette&#9;" order="4" />
+      <window_info anchor="right" id="Theme Preview" order="5" />
+      <window_info anchor="right" id="Commander" order="6" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="7" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="8" weight="0.25" />
+      <window_info anchor="right" id="Maven" order="9" weight="0.3295129" />
+    </layout-to-restore>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="jar://C:/Program Files/Java/jdk-11.0.2/lib/src.zip!/java.base/java/util/Date.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-5471">
+          <caret line="58" column="64" selection-start-line="58" selection-start-column="64" selection-end-line="58" selection-end-column="64" />
+          <folding>
+            <element signature="e#6916#6917#0" expanded="true" />
+            <element signature="e#6947#6948#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/socket/ServerExam.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="875">
+          <caret line="29" selection-start-line="29" selection-end-line="29" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk-11.0.2/lib/src.zip!/java.base/java/io/InputStreamReader.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2205">
+          <caret line="88" column="42" selection-start-line="88" selection-start-column="42" selection-end-line="88" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk-11.0.2/lib/src.zip!/java.base/java/nio/charset/Charset.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2450">
+          <caret line="114" column="1" selection-start-line="114" selection-start-column="1" selection-end-line="114" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk-11.0.2/lib/src.zip!/java.base/java/io/InputStream.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="12390">
+          <caret line="380" selection-start-line="380" selection-end-line="380" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jrt://C:/Program Files/Java/jdk-11.0.2!/java.base/java/io/InputStream.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="35">
+          <caret line="4" selection-start-line="4" selection-end-line="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk-11.0.2/lib/src.zip!/java.base/java/net/SocketInputStream.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="525">
+          <caret line="43" column="11" selection-start-line="43" selection-start-column="11" selection-end-line="43" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk-11.0.2/lib/src.zip!/java.base/java/text/DateFormat.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="16835">
+          <caret line="532" column="35" selection-start-line="532" selection-start-column="35" selection-end-line="532" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/socket/ClientExam.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="280">
+          <caret line="8" column="24" selection-start-line="8" selection-start-column="24" selection-end-line="8" selection-end-column="24" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>No facets are configured</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>1.7</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>network</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <last-edited>1.7</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>
