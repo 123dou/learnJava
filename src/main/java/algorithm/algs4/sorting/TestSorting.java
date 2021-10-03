@@ -9,7 +9,7 @@ import java.util.Random;
 
 
 public class TestSorting {
-    private static int[] array = new int[5000000];
+    private static int[] array = new int[10000000];
 
     static {
         Random random = new Random(10000);

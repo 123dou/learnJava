@@ -7,17 +7,17 @@ import java.util.NoSuchElementException;
 
 public class IndexMinPQ<Key extends Comparable<Key>> implements Iterable<Integer> {
     private int n; //队列中元素的最后位置
-    private int[] pq; //优先队列,实际比较的是keys[pq[i]]
-    private int[] qp; //key 到优先队列索引的映射
+    private int[] que; //优先队列,实际比较的是keys[pq[i]]
+    private int[] map; //key 到优先队列索引的映射
     private Key[] keys; //实际存储的对像
     private final int CAPACITY; //优先队列的容量
 
     public IndexMinPQ(int capacity) {
         if (capacity < 0) throw new IllegalArgumentException();
-        pq = new int[capacity + 1];
-        qp = new int[capacity + 1];
+        que = new int[capacity + 1];
+        map = new int[capacity + 1];
         keys = (Key[]) new Comparable[capacity + 1];
-        Arrays.fill(qp, -1);
+        Arrays.fill(map, -1);
         CAPACITY = capacity;
     }
 
@@ -26,10 +26,10 @@ public class IndexMinPQ<Key extends Comparable<Key>> implements Iterable<Integer
             throw new IllegalArgumentException("index " + k + "already exist!");
         if (k <= 0 || k > CAPACITY)
             throw new IllegalArgumentException("index : " + k + "out of capacity!");
-        pq[++n] = k;
+        que[++n] = k;
         keys[k] = key;
-        qp[k] = n;
-        swim(k);
+        map[k] = n;
+        swim(n);
     }
 
     /**
@@ -38,12 +38,11 @@ public class IndexMinPQ<Key extends Comparable<Key>> implements Iterable<Integer
      * @return
      */
     public int deleteMin() {
-        int min = pq[1];
+        int min = que[1];
         exch(1, n--);
         sink(1);
-        qp[min] = -1;
+        map[min] = -1;
         keys[min] = null;
-        qp[n + 1] = -1;
         return min;
     }
 
@@ -57,13 +56,13 @@ public class IndexMinPQ<Key extends Comparable<Key>> implements Iterable<Integer
             throw new IllegalArgumentException("no this index:" + k);
         if (k <= 0 || k > CAPACITY)
             throw new IllegalArgumentException("index : " + k + "out of capacity!");
-        int index = qp[k];
+        int index = map[k];
         exch(index, n--);
         swim(index);
         sink(index);
-        qp[k] = -1;
-        keys[k] = null; //help gc
-        qp[n + 1] = -1;
+        map[index] = -1;
+        keys[index] = null; //help gc
+
     }
 
     /**
@@ -72,8 +71,7 @@ public class IndexMinPQ<Key extends Comparable<Key>> implements Iterable<Integer
      * @return
      */
     public Key min() {
-        if (n == 0) throw new NoSuchElementException("Priority queue underflow");
-        return keys[pq[0]];
+        return keys[que[0]];
     }
 
     /**
@@ -82,8 +80,7 @@ public class IndexMinPQ<Key extends Comparable<Key>> implements Iterable<Integer
      * @return
      */
     public int MinIndex() {
-        if (n == 0) throw new NoSuchElementException("Priority queue underflow");
-        return pq[1];
+        return que[1];
     }
 
     /**
@@ -109,8 +106,8 @@ public class IndexMinPQ<Key extends Comparable<Key>> implements Iterable<Integer
         if (k <= 0 || k > CAPACITY)
             throw new IllegalArgumentException("index : " + k + "out of capacity!");
         keys[k] = key;
-        swim(qp[k]);
-        sink(qp[k]);
+        swim(map[k]);
+        sink(map[k]);
     }
 
 
@@ -149,11 +146,11 @@ public class IndexMinPQ<Key extends Comparable<Key>> implements Iterable<Integer
      * @param j
      */
     private void exch(int i, int j) {
-        int t = pq[i];
-        pq[i] = pq[j];
-        pq[j] = t;
-        qp[pq[i]] = i;
-        qp[pq[j]] = j;
+        int t = que[i];
+        que[i] = que[j];
+        que[j] = t;
+        map[que[i]] = i;
+        map[que[j]] = j;
     }
 
     /**
@@ -165,7 +162,8 @@ public class IndexMinPQ<Key extends Comparable<Key>> implements Iterable<Integer
      * @return
      */
     private boolean less(int i, int j) {
-        return keys[pq[i]].compareTo(keys[pq[j]]) < 0;
+        return keys[que[i]].compareTo(keys[que[j]]) < 0;
+
     }
 
     public boolean isEmpty() {
@@ -175,7 +173,7 @@ public class IndexMinPQ<Key extends Comparable<Key>> implements Iterable<Integer
     public boolean contains(int k) {
         if (k > CAPACITY || k <= 0)
             throw new IllegalArgumentException("out of priority capacity: " + k);
-        return qp[k] != -1;
+        return map[k] != -1;
     }
 
     @Override
@@ -187,8 +185,8 @@ public class IndexMinPQ<Key extends Comparable<Key>> implements Iterable<Integer
         private IndexMinPQ<Key> copy;
 
         public HeapIterator() {
-            copy = new IndexMinPQ<>(pq.length - 1);
-            for (int i = 1; i < pq.length; i++) copy.insert(pq[i], keys[pq[i]]);
+            copy = new IndexMinPQ<>(que.length - 1);
+            for (int i = 1; i < que.length; i++) copy.insert(que[i], keys[que[i]]);
         }
 
         @Override
@@ -203,7 +201,6 @@ public class IndexMinPQ<Key extends Comparable<Key>> implements Iterable<Integer
 
         @Override
         public Integer next() {
-            if (copy.isEmpty()) throw new NoSuchElementException();
             return copy.deleteMin();
         }
     }

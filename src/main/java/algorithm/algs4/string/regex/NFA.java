@@ -42,7 +42,7 @@ public class NFA {
     public boolean recognizes(String txt) {
         LinkedList<Integer> pc = new LinkedList<>();
         DirectedDFS dfs = new DirectedDFS(graph, 0);
-        for (int v = 0; v < graph.getV(); v++)
+        for (int v = 0; v < graph.getVERTEX_NUMS(); v++)
             if (dfs.isAccessibility(v)) pc.add(v); //和起点v连通的集合
         for (int i = 0; i < txt.length(); i++) {
             LinkedList<Integer> match = new LinkedList<>();
@@ -52,7 +52,7 @@ public class NFA {
             }
             pc = new LinkedList<>();
             dfs = new DirectedDFS(graph, match);
-            for (int v = 0; v < graph.getV(); v++)
+            for (int v = 0; v < graph.getVERTEX_NUMS(); v++)
                 if (dfs.isAccessibility(v)) pc.add(v);
         }
         for (int v : pc)

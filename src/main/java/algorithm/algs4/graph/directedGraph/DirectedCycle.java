@@ -9,10 +9,10 @@ public class DirectedCycle {
     private LinkedList<Integer> cycle;
 
     public DirectedCycle(DiGraph diGraph) {
-        marked = new boolean[diGraph.getV()];
-        edgesTo = new int[diGraph.getV()];
-        onStack = new boolean[diGraph.getV()];
-        for (int s = 0; s < diGraph.getV(); s++)
+        marked = new boolean[diGraph.getVERTEX_NUMS()];
+        edgesTo = new int[diGraph.getVERTEX_NUMS()];
+        onStack = new boolean[diGraph.getVERTEX_NUMS()];
+        for (int s = 0; s < diGraph.getVERTEX_NUMS(); s++)
             if (!marked[s]) dfs(diGraph, s);
     }
 

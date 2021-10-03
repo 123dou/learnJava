@@ -3,126 +3,67 @@ package algorithm.testDemo;
 
 import java.util.*;
 
-public class Solution {
-    private static int min = Integer.MAX_VALUE;
+class Solution {
 
     public static void main(String[] args) {
+        System.out.println(Objects.hash("123", "456"));
     }
-
-    public int makeConnected(int n, int[][] connections) {
-        if (connections.length < n - 1) {
-            return -1;
+    public List<Integer> findMinHeightTrees(int n, int[][] arr) {
+        if (arr == null) {
+            return new ArrayList<>();
         }
-        int countConn = 0;
-        int[] UF = new int[n];
-        for (int i = 0; i < UF.length; i++) {
-            UF[i] = i;
-        }
-        for (int[] connection : connections) {
-            if (!isConn(UF, connection[0], connection[1])) {
-                conn(UF, connection[0], connection[1]);
+        Graph graph = new Graph(n, arr);
+        ArrayDeque<Integer> que = new ArrayDeque<>();
+        for (int i = 0; i < graph.adj.length; i++) {
+            if (graph.adj[i].size() == 1) {
+                que.add(i);
             }
         }
-        for (int i = 0; i < UF.length; i++) {
-            if (UF[i] == i) {
-                countConn++;
+        List<Integer> list = new ArrayList<>();
+        while (!que.isEmpty()) {
+            list = new ArrayList<>();
+            while (!que.isEmpty()) {
+                list.add(que.pollFirst());
             }
-        }
-        return countConn - 1;
-    }
-
-    private boolean isConn(int[] arr, int i, int j) {
-        return arr[i] == arr[j];
-    }
-
-    private void conn(int[] arr, int i, int j) {
-        int leni = 0;
-        int lenj = 0;
-        while (i != arr[i]) {
-            leni++;
-            i = arr[i];
-        }
-        while (j != arr[j]) {
-            lenj++;
-            j = arr[j];
-        }
-        if (leni < lenj) {
-            arr[i] = j;
-        } else {
-            arr[j] = i;
-        }
-
-    }
-
-    public int maxEvents(int[][] events) {
-        int minStart = Integer.MAX_VALUE;
-        int maxEnd = -1;
-        HashMap<Event, List<Event>> map = new HashMap<>();
-        Event[] eventArr = new Event[events.length];
-        int len = 0;
-        for (int[] event : events) {
-            Event e = new Event(event[0], event[1]);
-            eventArr[len++] = e;
-            minStart = Math.min(minStart, e.start);
-            maxEnd = Math.max(maxEnd, e.end);
-        }
-        int max = maxEnd - minStart + 1;
-        Arrays.sort(eventArr);
-        int lo = 0;
-        int hi = eventArr.length - 1;
-        while (lo < hi) {
-            Event t = eventArr[lo];
-            eventArr[lo] = eventArr[hi];
-            eventArr[hi] = t;
-            lo++;
-            hi--;
-        }
-        System.out.println(Arrays.toString(eventArr));
-        boolean[] marked = new boolean[maxEnd + 1];
-        int res = 0;
-        for (int i = 0; i < eventArr.length; i++) {
-            Event e = eventArr[i];
-            for (int j = e.start; j <= e.end; j++) {
-                if (!marked[j]) {
-                    marked[j] = true;
-                    res++;
+            // 删除所有度为1的节点，并且将下一层度为1的节点添加进队列
+            for (Integer v : list) {
+                if (graph.adj[v].size() > 0) {
+                    Integer w = graph.adj[v].get(0);
+                    graph.delete(v, w);
+                    if (graph.adj[w].size() == 1) {
+                        que.add(w);
+                    }
                 }
             }
         }
-        for (int i = 0; i < marked.length; i++) {
-            if (marked[i]) {
-                System.out.print(i + "--" + marked[i] + ", ");
-            }
-        }
-        return res;
-    }
-
-    class Event implements Comparable<Event> {
-        int start;
-        int end;
-
-        Event(int start, int end) {
-            this.start = start;
-            this.end = end;
-        }
-
-        @Override
-        public int compareTo(Event o) {
-            int first = this.start - o.start;
-            if (first != 0) {
-                return first;
-            }
-            return this.end - o.end;
-        }
-
-        @Override
-        public String toString() {
-            return "Event{" +
-                    "start=" + start +
-                    ", end=" + end +
-                    '}';
-        }
+        return list;
     }
 
 
+    class Graph {
+        int n;
+        ArrayList<Integer>[] adj;
+
+        Graph(int num, int[][] arr) {
+            n = num;
+            adj = new ArrayList[num];
+            for (int i = 0; i < n; i++) {
+                adj[i] = new ArrayList<>();
+            }
+            for (int[] e : arr) {
+                add(e[0], e[1]);
+            }
+        }
+
+        void add(int v, int w) {
+            adj[v].add(w);
+            adj[w].add(v);
+        }
+
+        void delete(int v, int w) {
+            adj[v].remove(Integer.valueOf(w));
+            adj[w].remove(Integer.valueOf(v));
+        }
+
+    }
 }

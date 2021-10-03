@@ -2,7 +2,6 @@ package algorithm.algs4.graph.directedGraph;
 
 import java.util.ArrayDeque;
 import java.util.Deque;
-import java.util.LinkedList;
 import java.util.Queue;
 
 /**
@@ -22,8 +21,8 @@ public class DepthFirstOrder {
         pre = new ArrayDeque<>();
         post = new ArrayDeque<>();
         reversePost = new ArrayDeque<>();
-        marked = new boolean[diGraph.getV()];
-        for (int s = 0; s < diGraph.getV(); s++) dfs(diGraph, s);
+        marked = new boolean[diGraph.getVERTEX_NUMS()];
+        for (int s = 0; s < diGraph.getVERTEX_NUMS(); s++) dfs(diGraph, s);
     }
 
 

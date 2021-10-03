@@ -9,8 +9,8 @@ public class KosarajuSCC {
     private int count; //强连通分量的数量
 
     public KosarajuSCC(DiGraph diGraph) {
-        marked = new boolean[diGraph.getV()];
-        id = new int[diGraph.getV()];
+        marked = new boolean[diGraph.getVERTEX_NUMS()];
+        id = new int[diGraph.getVERTEX_NUMS()];
         DiGraph reverse = diGraph.reverse();
         DepthFirstOrder order = new DepthFirstOrder(reverse);
         for (int s : order.reversePost()) {

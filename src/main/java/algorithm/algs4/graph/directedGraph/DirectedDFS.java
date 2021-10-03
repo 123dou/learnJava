@@ -8,12 +8,12 @@ public class DirectedDFS {
     private int count; //记录的从源点可达的顶点数量
 
     public DirectedDFS(DiGraph diGraph, int s) {
-        marked = new boolean[diGraph.getV()];
+        marked = new boolean[diGraph.getVERTEX_NUMS()];
         dfs(diGraph, s);
     }
 
     public DirectedDFS(DiGraph diGraph, Iterable<Integer> source) {
-        marked = new boolean[diGraph.getV()];
+        marked = new boolean[diGraph.getVERTEX_NUMS()];
         for (int s : source) {
             if (!marked[s]) dfs(diGraph, s);
         }
